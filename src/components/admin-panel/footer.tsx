@@ -7,7 +7,7 @@ export function Footer() {
         <p className="text-xs md:text-sm leading-loose text-muted-foreground text-left">
           Built by{" "}
           <Link
-            href="https://linkedin.com/in/msnabiel/"
+            href="https://nabiel.vercel.app"
             target="_blank"
             rel="noopener noreferrer"
             className="font-medium underline underline-offset-4"
