@@ -28,7 +28,7 @@ export default function CategoriesPage() {
           <BreadcrumbSeparator />
           <BreadcrumbItem>
             <BreadcrumbLink asChild>
-            <Link href="/forests">Forests and Their Management</Link>
+            <Link href="/wildlife">Wildlife Ecology</Link>
             </BreadcrumbLink>
           </BreadcrumbItem>
           <BreadcrumbSeparator />
