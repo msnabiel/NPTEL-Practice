@@ -15,6 +15,7 @@ type Menu = {
   label: string;
   active?: boolean;
   icon: LucideIcon;
+  submenu?: Menu[];
 };
 
 type Group = {
