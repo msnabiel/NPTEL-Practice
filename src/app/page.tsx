@@ -48,7 +48,7 @@ const dashboardInfo = {
     },
     {
       id: 2,
-      title: "Download Your Hall Ticket",
+      title: "Hall ticket will be available by next week.",
       summary: "Hall tickets will be available on the SWAYAM portal. Visit https://swayam.gov.in to download.",
       date: "2025-04-09",
       link: "https://swayam.gov.in",
