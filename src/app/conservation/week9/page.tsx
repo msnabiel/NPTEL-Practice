@@ -17,7 +17,7 @@ export default function CategoriesPage() {
   const week = "week9";
 
   return (
-    <ContentLayout title="Forests and Their Management">
+    <ContentLayout title="Conservation Economics">
       <Breadcrumb>
         <BreadcrumbList>
           <BreadcrumbItem>
