@@ -50,7 +50,7 @@ export function getMenuList(pathname: string): Group[] {
         },
         {
           href: "/conservation",
-          label: "Coservation Economics",
+          label: "Conservation Economics",
           icon: FileText,
         },
         /*{
