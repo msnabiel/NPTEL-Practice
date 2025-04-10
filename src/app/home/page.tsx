@@ -139,7 +139,7 @@ export default function AboutPage() {
             {
               id: 2,
               name: "Conservation Economics",
-              description: "Learn biodiversity, ecological processes, and conservation practices.",
+              description: "Explore how economics can help solve today’s environmental problems.",
               image: "/conservation.jpg",
               features: ["Biodiversity", "Ecosystem Dynamics", "Human Impact"],
               url: "/conservation",
