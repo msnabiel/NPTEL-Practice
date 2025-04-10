@@ -9,7 +9,7 @@ import { Badge } from "@/components/ui/badge";
 import {
   Breadcrumb,
   BreadcrumbItem,
-  BreadcrumbLink, 
+  BreadcrumbLink,
   BreadcrumbList,
   BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb";
@@ -48,7 +48,7 @@ const dashboardInfo = {
     },
     {
       id: 2,
-      title: "Hall Ticket will be available by next week.",
+      title: "Download Your Hall Ticket",
       summary: "Hall tickets will be available on the SWAYAM portal. Visit https://swayam.gov.in to download.",
       date: "2025-04-09",
       link: "https://swayam.gov.in",
@@ -128,29 +128,29 @@ export default function AboutPage() {
         <h2 className="text-2xl font-bold mb-6">Available Quiz Topics</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
           {[
-            /*{
+            {
               id: 1,
-              name: "Conservation Ecology",
-              description: "Learn biodiversity, ecological processes, and conservation practices.",
-              image: "/coporate.png",
-              features: ["Biodiversity", "Ecosystem Dynamics", "Human Impact"],
-              url: "/quizzes/conservation-ecology",
-            },*/
-            {
-              id: 2,
-              name: "Wildlife Ecology",
-              description: "Understand wildlife behavior, habitats, and conservation strategies.",
-              image: "/wildlife.png",
-              features: ["Population Ecology", "Habitat Analysis", "Species Management"],
-              url: "/wildlife",
-            },
-            {
-              id: 3,
               name: "Forests and Their Management",
               description: "Explore sustainable forest management and community practices.",
               image: "/forests.png",
               features: ["Agroforestry", "Sustainable Logging", "Community Forestry"],
               url: "/forests",
+            },
+            {
+              id: 2,
+              name: "Conservation Economics",
+              description: "Learn biodiversity, ecological processes, and conservation practices.",
+              image: "/conservation.jpg",
+              features: ["Biodiversity", "Ecosystem Dynamics", "Human Impact"],
+              url: "/conservation",
+            },
+            {
+              id: 3,
+              name: "Wildlife Ecology",
+              description: "Understand wildlife behavior, habitats, and conservation strategies.",
+              image: "/wildlife.png",
+              features: ["Population Ecology", "Habitat Analysis", "Species Management"],
+              url: "/wildlife",
             },
           ].map((quiz) => (
             <Link key={quiz.id} href={quiz.url} passHref>
