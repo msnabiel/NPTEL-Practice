@@ -634,4 +634,56 @@ type Question = {
         answer: "low moisture, low temperature",
       },
     ],
+      week11: [
+    {
+      question: "Planting along canal banks is a part of",
+      options: ["farm forestry", "community forestry", "extension forestry", "agroforestry"],
+      answer: "extension forestry",
+    },
+    {
+      question: "Captive breeding is an example of",
+      options: ["in-situ conservation", "ex-situ conservation", "in-situ preservation", "ex-situ preservation"],
+      answer: "ex-situ conservation",
+    },
+    {
+      question: "The tiger has a home range of several square kilometres, regulates the ecosystem through controlling herbivore populations and trophic cascades, and people come to tiger reserves to watch tigers. Thus, the tiger can be called as",
+      options: ["umbrella species", "keystone species", "flagship species", "all of the above"],
+      answer: "all of the above",
+    },
+    {
+      question: "Sustainable harvest of resources falls under the category of:",
+      options: ["conservation", "preservation", "environmentalism", "none of the above"],
+      answer: "conservation",
+    },
+    {
+      question: "The elephant has a home range of several square kilometres, regulates the ecosystem by its habit of destructive feeding, and people can relate to this animal which is important for conservation. Given this background, the elephant can be called as",
+      options: ["umbrella species", "keystone species", "flagship species", "all of the above"],
+      answer: "all of the above",
+    },
+    {
+      question: "People come to Sessa orchid sanctuary in Arunachal Pradesh to witness orchids, which in this context would be classified as",
+      options: ["umbrella species", "keystone species", "flagship species", "extinct species"],
+      answer: "flagship species",
+    },
+    {
+      question: "We prefer those areas for the creation of a conservation reserve where the level of threat is",
+      options: ["very high", "medium", "very low", "non-existent"],
+      answer: "medium",
+    },
+    {
+      question: "Which of these is not a forest classification as per the 1894 Forest Policy:",
+      options: ["protection forest", "production forest", "minor forest", "major forest"],
+      answer: "major forest",
+    },
+    {
+      question: "“Science of relationships between organisms and their environments” is the definition of:",
+      options: ["conservation", "preservation", "environmentalism", "ecology"],
+      answer: "ecology",
+    },
+    {
+      question: "In 1931, Van Panchayats were constituted in areas that are now in",
+      options: ["Tamil Nadu", "Madhya Pradesh", "West Bengal", "Uttarakhand"],
+      answer: "Uttarakhand",
+    },
+  ],
   };
