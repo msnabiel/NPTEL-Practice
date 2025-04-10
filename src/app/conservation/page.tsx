@@ -9,7 +9,7 @@ const weeks = Array.from({ length: 12 }, (_, i) => `Week ${i + 1}`);
 
 export default function WildlifePage() {
   return (
-    <ContentLayout title="Conservation Econmoics - Select a Week">
+    <ContentLayout title="Conservation Economics - Select a Week">
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 px-4 py-6">
         {weeks.map((week, index) => (
           <motion.div
