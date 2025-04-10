@@ -48,6 +48,11 @@ export function getMenuList(pathname: string): Group[] {
           label: "Forests",
           icon: FileText,
         },
+        {
+          href: "/conservation",
+          label: "Coservation Economics",
+          icon: FileText,
+        },
         /*{
           href: "/categories",
           label: "Categories",
