@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { ContentLayout } from "@/components/admin-panel/content-layout";
 import {
   Breadcrumb,
@@ -22,7 +22,6 @@ import { Button } from "@/components/ui/button";
 import { CheckCircle2, XCircle } from "lucide-react";
 import clsx from "clsx";
 
-// ✅ Import the questionsByWeek data
 import { questionsByWeek } from "@/data/wildlife/answers";
 
 type Question = {
@@ -30,45 +29,26 @@ type Question = {
   options: string[];
   answer: string;
 };
+
 type QuizAppProps = {
-  week: string; // Week number passed as a prop (e.g., 'week1', 'week2')
+  week: string;
 };
 
 const QuizApp: React.FC<QuizAppProps> = ({ week }) => {
-  // ✅ Get questions for the specified week
   const questions: Question[] = questionsByWeek[week] || [];
 
-  const [current, setCurrent] = useState(0);
   const [answers, setAnswers] = useState<(string | null)[]>(
     Array(questions.length).fill(null)
   );
   const [submitted, setSubmitted] = useState(false);
 
-  const handleOptionClick = (option: string) => {
-    const updatedAnswers = [...answers];
-    updatedAnswers[current] = option;
-    setAnswers(updatedAnswers);
-  };
-
-  const handleBack = () => {
-    if (current > 0) setCurrent((prev) => prev - 1);
-  };
-
-  const handleNext = () => {
-    if (current < questions.length - 1) setCurrent((prev) => prev + 1);
-  };
-
   const handleSubmit = () => {
-    if (answers.every((ans) => ans !== null)) {
-      setSubmitted(true);
-    } else {
-      alert("Please answer all questions before submitting.");
-    }
+    setSubmitted(true); // Allow submission even if some answers are null
   };
+  
 
   const handleRestart = () => {
     setAnswers(Array(questions.length).fill(null));
-    setCurrent(0);
     setSubmitted(false);
   };
 
@@ -79,7 +59,7 @@ const QuizApp: React.FC<QuizAppProps> = ({ week }) => {
   if (submitted) {
     return (
       <div className="flex justify-center items-center px-4 py-6">
-        <Card className="w-full max-w-xl shadow-md">
+        <Card className="w-full max-w-5xl shadow-md max-h-[85vh] overflow-y-auto">
           <CardHeader>
             <CardTitle className="text-xl sm:text-2xl">Quiz Results</CardTitle>
           </CardHeader>
@@ -97,21 +77,27 @@ const QuizApp: React.FC<QuizAppProps> = ({ week }) => {
                   <div className="font-semibold">
                     Q{index + 1}: {question.question}
                   </div>
-                  <div className="flex items-center space-x-2">
-                    {correct ? (
-                      <CheckCircle2 className="text-green-500" />
-                    ) : (
-                      <XCircle className="text-red-500" />
-                    )}
-                    <span
-                      className={clsx(
-                        correct ? "text-green-600" : "text-red-600"
+
+                  {selected === null ? (
+                    <div className="text-yellow-600 italic">Not Attempted</div>
+                  ) : (
+                    <div className="flex items-center space-x-2">
+                      {correct ? (
+                        <CheckCircle2 className="text-green-500" />
+                      ) : (
+                        <XCircle className="text-red-500" />
                       )}
-                    >
-                      Your Answer: {selected}
-                    </span>
-                  </div>
-                  {!correct && (
+                      <span
+                        className={clsx(
+                          correct ? "text-green-600" : "text-red-600"
+                        )}
+                      >
+                        Your Answer: {selected}
+                      </span>
+                    </div>
+                  )}
+
+                  {!correct && selected !== null && (
                     <div className="text-sm text-muted-foreground">
                       Correct Answer: {question.answer}
                     </div>
@@ -130,78 +116,65 @@ const QuizApp: React.FC<QuizAppProps> = ({ week }) => {
     );
   }
 
-  const currentQuestion = questions[current];
-  const selectedOption = answers[current];
-
   return (
     <div className="flex justify-center items-center px-4 py-6">
-      <Card className="w-full max-w-xl shadow-md">
+      <Card className="w-full max-w-5xl shadow-md ">
+
         <CardHeader>
-          <CardTitle className="text-lg sm:text-xl">
-            Question {current + 1} of {questions.length}
-          </CardTitle>
+          <CardTitle className="text-xl">{week.toUpperCase()}</CardTitle>
         </CardHeader>
 
-        <CardContent>
-          <div className="mb-4 text-base sm:text-lg font-medium">
-            {currentQuestion.question}
-          </div>
-          <div className="grid grid-cols-1 gap-3">
-            {currentQuestion.options.map((option) => (
-              <Button
-                key={option}
-                variant="outline"
-                className={clsx(
-                  "justify-start text-left w-full whitespace-normal break-words py-4 min-h-[3rem]",
-                  selectedOption === option
-                    ? "bg-blue-200 text-blue-900 border border-blue-600"
-                    : ""
-                )}
-                onClick={() => handleOptionClick(option)}
-              >
-                <span className="block w-full text-wrap">{option}</span>
-              </Button>
-            ))}
-          </div>
+        <CardContent className="space-y-6">
+          {questions.map((question, index) => {
+            const selected = answers[index];
+
+            return (
+              <div key={index} className="border-b pb-4 space-y-2">
+                <div className="font-medium text-base sm:text-lg">
+                  Q{index + 1}: {question.question}
+                </div>
+                <div className="grid grid-cols-1 gap-3">
+                  {question.options.map((option) => (
+                    <Button
+                      key={option}
+                      variant="outline"
+                      className={clsx(
+                        "justify-start text-left w-full whitespace-normal break-words py-4 min-h-[3rem]",
+                        selected === option
+                          ? "bg-blue-200 text-blue-900 border border-blue-600"
+                          : ""
+                      )}
+                      onClick={() => {
+                        const updatedAnswers = [...answers];
+                        updatedAnswers[index] = option;
+                        setAnswers(updatedAnswers);
+                      }}
+                    >
+                      {option}
+                    </Button>
+                  ))}
+                </div>
+              </div>
+            );
+          })}
         </CardContent>
 
-        <CardFooter className="flex flex-col space-y-3 mt-4">
-          <div className="flex flex-row flex-wrap justify-between gap-2 w-full">
-            <Button
-              variant="default"
-              onClick={handleBack}
-              disabled={current === 0}
-              className="flex-1 min-w-[120px]"
-            >
-              Back
-            </Button>
+        <CardFooter className="flex justify-center mt-4">
+  <Button
+    onClick={handleSubmit}
+    className="w-full max-w-xs"
+  >
+    Submit Quiz
+  </Button>
+</CardFooter>
 
-            {current === questions.length - 1 ? (
-              <Button
-                onClick={handleSubmit}
-                disabled={answers.includes(null)}
-                className="flex-1 min-w-[120px]"
-              >
-                Submit Quiz
-              </Button>
-            ) : (
-              <Button
-                variant="default"
-                onClick={handleNext}
-                className="flex-1 min-w-[120px]"
-              >
-                Next
-              </Button>
-            )}
-          </div>
-        </CardFooter>
       </Card>
     </div>
   );
 };
 
 export default function CategoriesPage() {
-  const week = "week4"; // Specify the week you want to display (e.g., "week1", "week2")
+  const week = "week4";
 
   return (
     <ContentLayout title="Wildlife Ecology">
