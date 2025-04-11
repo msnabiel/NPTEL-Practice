@@ -59,7 +59,7 @@ const QuizApp: React.FC<QuizAppProps> = ({ week }) => {
   if (submitted) {
     return (
       <div className="flex justify-center items-center px-4 py-6">
-        <Card className="w-full max-w-3xl shadow-md max-h-[85vh] overflow-y-auto">
+        <Card className="w-full max-w-5xl shadow-md max-h-[85vh] overflow-y-auto">
           <CardHeader>
             <CardTitle className="text-xl sm:text-2xl">Quiz Results</CardTitle>
           </CardHeader>
@@ -118,7 +118,8 @@ const QuizApp: React.FC<QuizAppProps> = ({ week }) => {
 
   return (
     <div className="flex justify-center items-center px-4 py-6">
-      <Card className="w-full max-w-3xl shadow-md max-h-[85vh] overflow-y-auto">
+      <Card className="w-full max-w-5xl shadow-md ">
+
         <CardHeader>
           <CardTitle className="text-xl">{week.toUpperCase()}</CardTitle>
         </CardHeader>
