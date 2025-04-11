@@ -185,7 +185,7 @@ const QuizApp: React.FC<QuizAppProps> = ({ week }) => {
 };
 
 export default function CategoriesPage() {
-  const week = "week1";
+  const week = "week5";
 
   return (
     <ContentLayout title="Forests and Their Management">
