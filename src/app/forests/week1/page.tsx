@@ -96,7 +96,7 @@ const feedback = (() => {
       "🫠 The quiz gave you a soft slap. Bounce back."
     ],
     low: [
-      "📉 CSK Performance.",
+      "📉 CSK level Performance.",
       "💀 NPTEL said 'try again'.",
       "🗑️ Even the trash bin said, 'not my level'.",
       "🧽 You wiped the floor… with your score."
