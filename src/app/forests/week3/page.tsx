@@ -252,7 +252,7 @@ const feedback = (() => {
 };
 
 export default function CategoriesPage() {
-  const week = "week10";
+  const week = "week3";
 
   return (
     <ContentLayout title="Forests and Their Management">
