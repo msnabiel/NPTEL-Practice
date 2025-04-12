@@ -40,22 +40,24 @@ const dashboardInfo = {
   
   nptelUpdates: [
     {
-      id: 1,
-      title: "2025 Winter Semester NPTEL Exam Date",
-      summary: "The NPTEL exam for the Winter 2025 semester is scheduled for April 18th. Check your email for more.",
-      date: "2025-04-09",
-      link: "https://mail.google.com",
-    },
+  id: 1,
+  title: "Exam Centre Details & Timings Released",
+  summary: "Login to internalapp.nptel.ac.in with your registered email and DOB (YYYY-MM-DD) to view April 2025 exam city and centre. Hall ticket coming soon.",
+  date: "2025-04-11",
+  link: "https://internalapp.nptel.ac.in"
+},
+      
     {
-      id: 2,
-      title: "Hall ticket will be available by next week.",
-      summary: "Hall tickets will be available on the SWAYAM portal. Visit https://swayam.gov.in to download.",
-      date: "2025-04-09",
-      link: "https://swayam.gov.in",
-    },
+  id: 2,
+  title: "Exam Slot Timings & Centre",
+  summary: "Exam slots: Morning 7–10am, Afternoon 11–2pm, Evening 3–6pm, Late Evening 7–10pm. Candidates who selected Chennai will have their centre at VIT Chennai. Note: This applies only to VIT students.",
+  date: "2025-04-11",
+  link: "https://internalapp.nptel.ac.in"
+},
+
     {
       id: 3,
-      title: "NPTEL Quiz Deadline",
+      title: "NPTEL's LAST Quiz Deadline",
       summary: "All NPTEL quizzes will close on April 16th. Make sure to complete them in time. Check your email for more.",
       date: "2025-04-09",
       link: "https://mail.google.com",
