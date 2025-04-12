@@ -357,4 +357,56 @@ week8: [
     answer: "SMB = PMB - MD",
   },
 ],
+week9: [
+  {
+    question: "\"Costs that have already been committed and cannot be recovered\" are",
+    options: ["fixed costs", "variable costs", "marginal costs", "sunk costs"],
+    answer: "sunk costs",
+  },
+  {
+    question: "\"Total revenue minus total cost, including both explicit and implicit costs\" is a definition of",
+    options: ["economic profit", "accounting profit", "profit", "loss"],
+    answer: "economic profit",
+  },
+  {
+    question: "\"The increase in total cost that arises from an extra unit of production\" are",
+    options: ["fixed costs", "variable costs", "marginal costs", "sunk costs"],
+    answer: "marginal costs",
+  },
+  {
+    question: "A monopolist firm's profit is given by",
+    options: ["(Price - ATC) x Q", "(Price - Q) * ATC", "(ATC - Q) × Price", "Price x Q - ATC"],
+    answer: "(Price - ATC) x Q",
+  },
+  {
+    question: "Which of the following is true for a competitive firm?",
+    options: ["P > MR", "P > MC", "MR > MC", "MR = MC"],
+    answer: "MR = MC",
+  },
+  {
+    question: "\"The amount a firm receives for the sale of its output\" is a definition of",
+    options: ["total revenue", "total cost", "profit", "loss"],
+    answer: "total revenue",
+  },
+  {
+    question: "When the cost of production for a single firm is much lesser than the cost of production for competitive firms, we have a/an",
+    options: ["natural monopoly", "artificial monopoly", "oligopoly", "duopoly"],
+    answer: "natural monopoly",
+  },
+  {
+    question: "\"Costs that do not vary with the quantity of output produced\" are",
+    options: ["fixed costs", "variable costs", "marginal cost", "sunk cost"],
+    answer: "fixed costs",
+  },
+  {
+    question: "\"Costs that vary with the quantity of output produced\" are",
+    options: ["fixed costs", "variable costs", "marginal costs", "sunk costs"],
+    answer: "variable costs",
+  },
+  {
+    question: "\"The increase in output that arises from an additional unit of input\" is",
+    options: ["marginal product", "marginal profit", "marginal loss"],
+    answer: "marginal product",
+  },
+],
 };
