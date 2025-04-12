@@ -409,4 +409,60 @@ week9: [
     answer: "marginal product",
   },
 ],
+week10: [
+  {
+    question: "\"An absolute level of income set by the government for each family size below which a family is deemed to be in poverty\" is known as",
+    options: ["deprivation line", "poverty line", "deprivation index", "poverty index"],
+    answer: "poverty line",
+  },
+  {
+    question: "Absolute poverty depends",
+    options: ["on income but not on access to social services", "not on income but on access to social services", "on income and on access to social services", "neither on income nor on access to social services"],
+    answer: "on income and on access to social services",
+  },
+  {
+    question: "\"The equipment and structures used to produce goods and services\" is the definition of",
+    options: ["tools", "machinery", "capital", "factors of production"],
+    answer: "capital",
+  },
+  {
+    question: "\"Above-equilibrium wages paid by firms to increase worker productivity\" are known as",
+    options: ["compensating wage", "efficiency wage", "productivity wage", "retention wage"],
+    answer: "efficiency wage",
+  },
+  {
+    question: "\"Government policy aimed at protecting people against the risk of adverse events\" is",
+    options: ["Social protection", "Social insurance", "Social security", "Socialism"],
+    answer: "Social insurance",
+  },
+  {
+    question: "\"A difference in wages that arises to offset the non-monetary characteristics of different jobs\" is known as",
+    options: ["differentiating differential", "compensating differential", "differentiating integral", "compensating integral"],
+    answer: "compensating differential",
+  },
+  {
+    question: "For a competitive and profit-maximising firm,",
+    options: [
+      "each factor's earnings = value of the marginal product for that factor",
+      "each factor's rental price > the value of the marginal product for that factor",
+      "each factor's rental price = the value of the average product for that factor"
+    ],
+    answer: "each factor's earnings = value of the marginal product for that factor",
+  },
+  {
+    question: "\"A condition characterised by severe deprivation of basic human needs, including food, safe drinking water, sanitation facilities, health, shelter, education and information\" is known as",
+    options: ["absolute poverty", "relative poverty", "median poverty", "poverty line"],
+    answer: "absolute poverty",
+  },
+  {
+    question: "\"A condition where a household's income is lower than the median income in the particular country\" is known as",
+    options: ["absolute poverty", "relative poverty", "median poverty", "poverty line"],
+    answer: "relative poverty",
+  },
+  {
+    question: "\"The increase in the amount of output from an additional unit of labor\" is",
+    options: ["marginal product of labour", "marginal product of input", "average product of labour", "average product of input"],
+    answer: "marginal product of labour",
+  },
+],
 };
