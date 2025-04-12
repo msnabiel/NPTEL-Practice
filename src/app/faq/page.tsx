@@ -31,7 +31,7 @@ export default function FAQPage() {
           <BreadcrumbSeparator />
           <BreadcrumbItem>
             <BreadcrumbLink asChild>
-              <Link href="/conservation">Conservation Economics</Link>
+              <Link href="/faq">Others</Link>
             </BreadcrumbLink>
           </BreadcrumbItem>
           <BreadcrumbSeparator />
