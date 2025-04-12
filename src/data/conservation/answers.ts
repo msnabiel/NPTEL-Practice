@@ -4,6 +4,58 @@ type Question = {
   answer: string;
 };
 export const questionsByWeek: { [week: string]: Question[] } = {
+week3: [
+  {
+    question: "_is used to identify which potential impacts are relevant to assess.",
+    options: ["screening", "scoping", "reporting", "review"],
+    answer: "scoping",
+  },
+  {
+    question: "The potential or capacity of a material to have adverse effects on living organisms is",
+    options: ["vulnerability", "susceptibility", "sustainability", "toxicity"],
+    answer: "toxicity",
+  },
+  {
+    question: "A deciduous forest in Madhya Pradesh was converted to a mine. After the mining operations were over, the pits were filled with soil and species of deciduous forest planted again. This is an example of",
+    options: ["recovery", "restoration", "enhancement", "replacement"],
+    answer: "restoration",
+  },
+  {
+    question: "Hydrocarbons derived from incomplete burning of mineral oils are",
+    options: ["petrogenic hydrocarbons", "pyrogenic hydrocarbons", "biogenic hydrocarbons", "chemoenic hydrocarbons"],
+    answer: "pyrogenic hydrocarbons",
+  },
+  {
+    question: "A deciduous forest in Madhya Pradesh was converted to a mine. After the mining operations were over, the pits were filled up with water and a lake was created. It is now visited by several migratory birds. This is an example of",
+    options: ["recovery", "restoration", "enhancement", "replacement"],
+    answer: "replacement",
+  },
+  {
+    question: "The relative effect of exposure is",
+    options: ["vulnerability", "sensitivity", "sustainability", "resilience"],
+    answer: "sensitivity",
+  },
+  {
+    question: "_determines which projects or developments require a full or partial impact assessment study.",
+    options: ["screening", "scoping", "reporting", "monitoring"],
+    answer: "screening",
+  },
+  {
+    question: "The extent to which a chemical is available for uptake into an organism is",
+    options: ["bioavailability", "bioaccumulation", "biomagnification", "bioresponse"],
+    answer: "bioavailability",
+  },
+  {
+    question: "Hydrocarbons derived from biological processes acting on mineral oils are",
+    options: ["petrogenic hydrocarbons", "pyrogenic hydrocarbons", "biogenic hydrocarbons", "chemoenic hydrocarbons"],
+    answer: "biogenic hydrocarbons",
+  },
+  {
+    question: "An adaptation that increases vulnerability rather than reducing it is",
+    options: ["adaptation", "mitigation", "maladaptation", "malmitigation"],
+    answer: "maladaptation",
+  },
+],
   week4: [
     {
       question: "Which of these is a deterministic factor?",
