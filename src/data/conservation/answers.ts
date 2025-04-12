@@ -305,4 +305,56 @@ week3: [
       answer: "producer surplus",
     },
   ],
+week8: [
+  {
+    question: "For a positive consumption externality,",
+    options: ["SMB = PMB", "SMB = PMB - MD", "SMB = PMB + MB", "SMC = PMC / MD"],
+    answer: "SMB = PMB + MB",
+  },
+  {
+    question: "For a positive production externality,",
+    options: ["SMB = PMB", "SMB = PMB - MD", "SMB = PMB + MB", "SMC = PMC / MD"],
+    answer: "SMB = PMB",
+  },
+  {
+    question: "The direct cost to producers of producing an additional unit of a good is",
+    options: ["private marginal cost (PMC)", "social marginal cost (SMC)", "private marginal benefit (PMB)", "social marginal benefit (SMB)"],
+    answer: "private marginal cost (PMC)",
+  },
+  {
+    question: "For a negative production externality,",
+    options: ["SMC = PMC + MD", "SMC = PMC - MD", "SMC = PMC", "SMC = PMC - MB"],
+    answer: "SMC = PMC + MD",
+  },
+  {
+    question: "The private marginal cost to producers plus any costs associated with the production of the good that are imposed on others is",
+    options: ["private marginal cost (PMC)", "social marginal cost (SMC)", "private marginal benefit (PMB)", "social marginal benefit (SMB)"],
+    answer: "social marginal cost (SMC)",
+  },
+  {
+    question: "Partying with loud noise is an example of",
+    options: ["negative production externality", "positive production externality", "negative consumption externality", "positive consumption externality"],
+    answer: "negative consumption externality",
+  },
+  {
+    question: "When an individual's consumption increases the well-being of others, but the individual is not compensated by those others, we have",
+    options: ["negative production externality", "positive production externality", "negative consumption externality", "positive consumption externality"],
+    answer: "positive consumption externality",
+  },
+  {
+    question: "When a firm's production increases the well-being of others but the firm is not compensated by those others, we have",
+    options: ["negative production externality", "positive production externality", "negative consumption externality", "positive consumption externality"],
+    answer: "positive production externality",
+  },
+  {
+    question: "When an individual's consumption reduces the well-being of others who are not compensated by the individual, we have",
+    options: ["negative production externality", "positive production externality", "negative consumption externality", "positive consumption externality"],
+    answer: "negative consumption externality",
+  },
+  {
+    question: "For a negative consumption externality,",
+    options: ["SMB = PMB", "SMB = PMB - MD", "SMB = PMB + MB", "SMC = PMC / MD"],
+    answer: "SMB = PMB - MD",
+  },
+],
 };
