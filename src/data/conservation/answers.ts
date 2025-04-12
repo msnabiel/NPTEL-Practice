@@ -66,6 +66,78 @@ week1: [
     answer: "implicit costs",
   },
 ],
+week2: [
+  {
+    question: "Which of these is not a pillar of sustainability?",
+    options: [
+      "environmental sustainability",
+      "economic sustainability",
+      "trans-boundary sustainability",
+      "social sustainability"
+    ],
+    answer: "trans-boundary sustainability",
+  },
+  {
+    question: "The Trinity explosion of 1945 is taken as the beginning of the",
+    options: ["Holocene", "Cenocene", "Anthropocene", "Eocene"],
+    answer: "Anthropocene",
+  },
+  {
+    question: "According to Malthusian model,",
+    options: [
+      "Population grows in geometric progression, food supply increases in arithmetic progression",
+      "Population grows in geometric progression, food supply increases in geometric progression",
+      "Population grows in arithmetic progression, food supply increases in arithmetic progression",
+      "Population grows in arithmetic progression, food supply increases in geometric progression"
+    ],
+    answer: "Population grows in geometric progression, food supply increases in arithmetic progression",
+  },
+  {
+    question: "The demographic transition sees a society move from",
+    options: [
+      "high birth rate, low death rate to low birth rate, high death rate",
+      "low birth rate, high death rate to low birth rate, low death rate",
+      "high birth rate, high death rate to low birth rate, low death rate",
+      "high birth rate, high death rate to low birth rate, high death rate"
+    ],
+    answer: "high birth rate, high death rate to low birth rate, low death rate",
+  },
+  {
+    question: "Which of these is a pillar of sustainability?",
+    options: [
+      "social sustainability",
+      "industrial sustainability",
+      "agricultural sustainability",
+      "trans-boundary sustainability"
+    ],
+    answer: "social sustainability",
+  },
+  {
+    question: "Which of these is a preventive check according to Malthus?",
+    options: ["foresight", "vice", "misery", "flood"],
+    answer: "foresight",
+  },
+  {
+    question: "The quantum of human impacts can be written as",
+    options: ["I = P × A + T", "I = P × A × T", "I = P + A × T", "I = P + A + T"],
+    answer: "I = P × A × T",
+  },
+  {
+    question: "The book 'An Essay on the Principle of Population' was written by",
+    options: ["Darwin", "Malthus", "Aristotle", "Spencer"],
+    answer: "Malthus",
+  },
+  {
+    question: "The logistic growth equation curve is",
+    options: ["I-shaped", "J-shaped", "S-shaped", "U-shaped"],
+    answer: "S-shaped",
+  },
+  {
+    question: "Which of these is a positive check according to Malthus?",
+    options: ["late marriage", "celibacy", "moral restraint", "war"],
+    answer: "war",
+  },
+],
 week3: [
   {
     question: "_is used to identify which potential impacts are relevant to assess.",
