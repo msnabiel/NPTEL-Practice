@@ -62,7 +62,7 @@ const dashboardInfo = {
       date: "2025-04-09",
       link: "https://mail.google.com",
     },
-  ]
+  ],
   
 };
 
