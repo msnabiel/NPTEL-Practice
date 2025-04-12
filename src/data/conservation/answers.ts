@@ -4,6 +4,68 @@ type Question = {
   answer: string;
 };
 export const questionsByWeek: { [week: string]: Question[] } = {
+week1: [
+  {
+    question: "In the word root for conservation, 'con' stands for",
+    options: ["together", "to keep", "manage", "house"],
+    answer: "together",
+  },
+  {
+    question: "\"The ability of a single economic actor (or small group of actors) to have a substantial influence on market prices\" is known as",
+    options: ["price power", "market power", "externality", "economic power"],
+    answer: "market power",
+  },
+  {
+    question: "\"An economy that allocates resources through the decentralised decisions of many firms and households as they interact in markets for goods and services\" is a/an",
+    options: ["urban economy", "mixed economy", "planned economy", "market economy"],
+    answer: "market economy",
+  },
+  {
+    question: "In the word root for conservation, 'servare' stands for",
+    options: ["together", "to keep", "house", "manage"],
+    answer: "to keep",
+  },
+  {
+    question: "Which of these is true?",
+    options: [
+      "Wants are unlimited, resources are unlimited",
+      "Wants are limited, resources are limited",
+      "Wants are unlimited, resources are limited",
+      "Wants are limited, resources are unlimited"
+    ],
+    answer: "Wants are unlimited, resources are limited",
+  },
+  {
+    question: "\"An increase in the overall level of prices in the economy\" is",
+    options: ["inflation", "deflation", "stagflation", "priceflation"],
+    answer: "inflation",
+  },
+  {
+    question: "Phillips curve shows the relation between",
+    options: [
+      "profit and loss",
+      "marked price and selling price",
+      "inflation rate and unemployment rate",
+      "electricity consumption and heat output"
+    ],
+    answer: "inflation rate and unemployment rate",
+  },
+  {
+    question: "In the word root for Economics, 'oikos' stands for",
+    options: ["together", "to keep", "house", "manage"],
+    answer: "house",
+  },
+  {
+    question: "\"The cost of rational thinking occurs\"",
+    options: ["before the margin", "at the margin", "after the margin", "none of these"],
+    answer: "at the margin",
+  },
+  {
+    question: "Input costs that do not require an outlay of money are",
+    options: ["explicit costs", "implicit costs", "opportunity costs", "phantom costs"],
+    answer: "implicit costs",
+  },
+],
 week3: [
   {
     question: "_is used to identify which potential impacts are relevant to assess.",
