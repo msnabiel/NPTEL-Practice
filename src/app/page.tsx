@@ -49,7 +49,7 @@ const dashboardInfo = {
       
     {
   id: 2,
-  title: "Exam Slot Timings & Centre (VIT students)",
+  title: "Exam Slot Timings & Centre (VITC students)",
   summary: "Exam slots: Morning 7–10am, Afternoon 11–2pm, Evening 3–6pm, Late Evening 7–10pm. Candidates who selected Chennai will have their centre at VIT Chennai.",
   date: "2025-04-11",
   link: "https://internalapp.nptel.ac.in"
