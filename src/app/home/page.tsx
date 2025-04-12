@@ -42,15 +42,15 @@ const dashboardInfo = {
     {
   id: 1,
   title: "Exam Centre Details & Timings Released",
-  summary: "Login to internalapp.nptel.ac.in with your registered email and DOB (YYYY-MM-DD) to view April 2025 exam city and centre. Hall ticket coming soon.",
+  summary: "Login to internalapp.nptel.ac.in with your registered email and password as DOB (YYYY-MM-DD) to view April 2025 exam city and centre. Hall ticket coming soon.",
   date: "2025-04-11",
   link: "https://internalapp.nptel.ac.in"
 },
       
     {
   id: 2,
-  title: "Exam Slot Timings & Centre",
-  summary: "Exam slots: Morning 7–10am, Afternoon 11–2pm, Evening 3–6pm, Late Evening 7–10pm. Candidates who selected Chennai will have their centre at VIT Chennai. Note: This applies only to VIT students.",
+  title: "Exam Slot Timings & Centre (VIT students)",
+  summary: "Exam slots: Morning 7–10am, Afternoon 11–2pm, Evening 3–6pm, Late Evening 7–10pm. Candidates who selected Chennai will have their centre at VIT Chennai.",
   date: "2025-04-11",
   link: "https://internalapp.nptel.ac.in"
 },
