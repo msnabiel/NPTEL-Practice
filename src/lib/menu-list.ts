@@ -8,6 +8,7 @@ import {
   LucideIcon,
   FileText,
   IndianRupee,
+  HelpCircleIcon,
 } from "lucide-react";
 
 type Menu = {
@@ -50,7 +51,7 @@ export function getMenuList(pathname: string): Group[] {
         },
         {
           href: "/conservation",
-          label: "Conservation Economics",
+          label: "Coservation Economics",
           icon: FileText,
         },
         /*{
@@ -62,17 +63,18 @@ export function getMenuList(pathname: string): Group[] {
           href: "/tags",
           label: "Tags",
           icon: Tag,
-        },
+        },*/
       ],
     },
     {
-      groupLabel: "Settings",
+      groupLabel: "Others",
       menus: [
         {
-          href: "/pricing",
-          label: "Pricing",
-          icon: IndianRupee,
+          href: "/faq",
+          label: "FAQ's",
+          icon: HelpCircleIcon,
         },
+        /*
         {
           href: "/about-us",
           label: "About Us",
