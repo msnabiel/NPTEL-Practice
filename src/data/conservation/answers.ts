@@ -465,4 +465,61 @@ week10: [
     answer: "marginal product of labour",
   },
 ],
+week11: [
+  {
+    question: "\"An action taken by an uninformed party to induce an informed party to reveal information\" is known as",
+    options: ["signalling", "screening", "informing", "heuristics"],
+    answer: "screening",
+  },
+  {
+    question: "\"The part of actual resources that can be developed profitably in the future\" are",
+    options: ["potential resources", "actual resources", "reserve resources", "stock resources"],
+    answer: "reserve resources",
+  },
+  {
+    question: "\"The limit on the consumption bundles that a consumer can afford\" is known as",
+    options: ["consumption constraint", "budget constraint", "bundle constraint", "affordability constraint"],
+    answer: "budget constraint",
+  },
+  {
+    question: "\"Mental shortcut using emotion (gut feeling) to influence the decision\" is",
+    options: ["affect heuristic", "availability heuristic", "effort heuristic", "familiarity heuristic"],
+    answer: "affect heuristic",
+  },
+  {
+    question: "\"Those resources that are currently being used after surveying, quantification and qualification\" are",
+    options: ["potential resources", "actual resources", "reserve resources", "stock resources"],
+    answer: "actual resources",
+  },
+  {
+    question: "\"The change in consumption that results when a price change moves the consumer along a given indifference curve to a point with a new marginal rate of substitution\" is known as",
+    options: ["income effect", "substitution effect", "indifference effect", "budget effect"],
+    answer: "substitution effect",
+  },
+  {
+    question: "An inferior good whose demand increases with price is called as",
+    options: ["Normal good", "Veblen good", "Giffen good", "Demand good"],
+    answer: "Giffen good",
+  },
+  {
+    question: "Which of these is not a property of indifference curves?",
+    options: [
+      "Higher indifference curves are preferred to lower ones",
+      "Indifference curves are downward-sloping",
+      "Indifference curves cross at right angles",
+      "Indifference curves are bowed inwards"
+    ],
+    answer: "Indifference curves cross at right angles",
+  },
+  {
+    question: "\"An action taken by an informed party to reveal private information to an uninformed party\" is known as",
+    options: ["signalling", "screening", "informing", "heuristics"],
+    answer: "signalling",
+  },
+  {
+    question: "\"Simple strategies or mental processes used to quickly form judgments, make decisions, and find solutions to complex problems\" is known as",
+    options: ["signalling", "screening", "informing", "heuristics"],
+    answer: "heuristics",
+  },
+],
 };
