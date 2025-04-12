@@ -252,7 +252,7 @@ const feedback = (() => {
 };
 
 export default function CategoriesPage() {
-  const week = "week2";
+  const week = "week10";
 
   return (
     <ContentLayout title="Conservation Economics">
