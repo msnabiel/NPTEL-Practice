@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
+import { motion, AnimatePresence } from "framer-motion";
 import { ContentLayout } from "@/components/admin-panel/content-layout";
 import {
   Breadcrumb,
@@ -11,6 +12,7 @@ import {
   BreadcrumbPage,
   BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb";
+import { Flame } from "lucide-react";
 import {
   Card,
   CardHeader,
@@ -45,6 +47,8 @@ const QuizApp: React.FC = () => {
   const [shuffledQuestions, setShuffledQuestions] = useState<Question[]>([]);
   const [answers, setAnswers] = useState<(string | null)[]>([]);
   const [submitted, setSubmitted] = useState(false);
+  const [streak, setStreak] = useState(0);
+  const [lastCorrectIndex, setLastCorrectIndex] = useState(-1);
 
   useEffect(() => {
     const shuffled = shuffleArray(allQuestions);
@@ -59,6 +63,8 @@ const QuizApp: React.FC = () => {
     setShuffledQuestions(reshuffled);
     setAnswers(Array(reshuffled.length).fill(null));
     setSubmitted(false);
+    setStreak(0);
+    setLastCorrectIndex(-1);
   };
 
   useEffect(() => {
@@ -118,6 +124,13 @@ const QuizApp: React.FC = () => {
     else if (percentage >= 50) return getRandom(savageFeedback.mid);
     else return getRandom(savageFeedback.low);
   })();
+
+  const liveScore = answers.reduce((acc, selected, index) => {
+    if (selected === shuffledQuestions[index].answer) return acc + 1;
+    return acc;
+  }, 0);
+
+  const progressPercentage = (liveScore / shuffledQuestions.length) * 100;
 
   if (submitted) {
     return (
@@ -223,6 +236,18 @@ const QuizApp: React.FC = () => {
                         const updatedAnswers = [...answers];
                         updatedAnswers[index] = option;
                         setAnswers(updatedAnswers);
+
+                        const isCorrect = option === shuffledQuestions[index].answer;
+
+                        if (isCorrect && lastCorrectIndex === index - 1) {
+                          setStreak(prev => prev + 1);
+                          setLastCorrectIndex(index);
+                        } else if (isCorrect && lastCorrectIndex < index - 1) {
+                          setStreak(1);
+                          setLastCorrectIndex(index);
+                        } else {
+                          setStreak(0);
+                        }
                       }}
                     >
                       {option}
@@ -240,6 +265,51 @@ const QuizApp: React.FC = () => {
           </Button>
         </CardFooter>
       </Card>
+
+      {/* Floating streak feedback */}
+      {/* Fixed container for placement on screen */}
+<div className="fixed bottom-6 right-6 z-50 w-56">
+  {/* Inner relative container for feedback stacking */}
+  <div className="relative w-full">
+    <AnimatePresence>
+      {streak >= 2 && (
+        <motion.div
+          key={streak}
+          initial={{ opacity: 0, scale: 0.8 }}
+          animate={{ opacity: 1, scale: 1 }}
+          exit={{ opacity: 0, scale: 0.8 }}
+          transition={{ duration: 0.3 }}
+          className="absolute -top-14 left-0 w-full bg-orange-100 border border-orange-300 text-orange-800 shadow-lg px-4 py-2 rounded-2xl flex items-center justify-center"
+        >
+          <span className="font-semibold text-sm text-center">
+            {streak >= 5
+              ? "💥 Killing Spree!"
+              : streak >= 4
+              ? "🔥 Quad Combo!"
+              : streak >= 3
+              ? "⚡ Triple Hit!"
+              : "🔥 Combo Streak!"}
+          </span>
+        </motion.div>
+      )}
+    </AnimatePresence>
+
+    <AnimatePresence>
+      <motion.div
+        initial={{ opacity: 0, scale: 0.7, y: 20 }}
+        animate={{ opacity: 1, scale: 1, y: 0 }}
+        exit={{ opacity: 0, scale: 0.7, y: 20 }}
+        transition={{ type: "spring", stiffness: 300, damping: 20 }}
+        className="bg-orange-100 border border-orange-300 text-orange-800 shadow-lg px-4 py-2 rounded-2xl flex items-center justify-center space-x-2 w-full"
+      >
+        <Flame className="w-5 h-5 animate-pulse text-orange-600" />
+        <span className="font-semibold text-sm">Streak: {streak}</span>
+      </motion.div>
+    </AnimatePresence>
+  </div>
+</div>
+
+
     </div>
   );
 };
