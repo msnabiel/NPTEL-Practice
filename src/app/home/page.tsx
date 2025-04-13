@@ -2,6 +2,8 @@
 
 import Link from "next/link";
 import Image from "next/image";
+import { ArrowRight } from "lucide-react";
+import { useRef } from "react"; 
 import { useState } from "react";
 import { ContentLayout } from "@/components/admin-panel/content-layout";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -78,9 +80,13 @@ const dashboardInfo = {
 
 export default function AboutPage() {
   const [searchTerm, setSearchTerm] = useState("");
+  const quizSectionRef = useRef<HTMLDivElement | null>(null);
 
   const handleSearch = (e: React.ChangeEvent<HTMLInputElement>) => {
     setSearchTerm(e.target.value.toLowerCase());
+  };
+  const scrollToQuiz = () => {
+    quizSectionRef.current?.scrollIntoView({ behavior: "smooth" });
   };
 
   const filteredUpdates = dashboardInfo.nptelUpdates.filter((update) =>
@@ -137,6 +143,7 @@ export default function AboutPage() {
         </div>
 
         {/* Practice Quiz Topics */}
+        <div ref={quizSectionRef}>
         <h2 className="text-2xl font-bold mb-6">Available Quiz Topics</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
           {[
@@ -180,17 +187,22 @@ export default function AboutPage() {
                   <p className="dark:text-gray-300">{quiz.description}</p>
                 </CardHeader>
                 <CardContent>
-                  <div className="flex flex-wrap gap-2">
-                    {quiz.features.map((feature, idx) => (
-                      <Badge key={idx} variant="outline">
-                        {feature}
-                      </Badge>
-                    ))}
-                  </div>
-                </CardContent>
+  <div className="flex flex-wrap gap-2 mb-3">
+    {quiz.features.map((feature, idx) => (
+      <Badge key={idx} variant="outline">
+        {feature}
+      </Badge>
+    ))}
+  </div>
+  <p className="text-blue-600 font-medium hover:underline">
+    Click to start practicing →
+  </p>
+</CardContent>
+
               </Card>
             </Link>
           ))}
+        </div>
         </div>
         {/* About Section */}
 <div className="mb-8">
@@ -265,6 +277,14 @@ export default function AboutPage() {
           </CardContent>
         </Card>
       </div>
+      {/* Floating Button */}
+      <button
+        onClick={scrollToQuiz}
+        className="fixed bottom-6 right-6 z-50 bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-full shadow-lg flex items-center gap-2 transition-all"
+      >
+        <span>Start Practicing</span>
+        <ArrowRight className="w-4 h-4" />
+      </button>
     </ContentLayout>
   );
 }
