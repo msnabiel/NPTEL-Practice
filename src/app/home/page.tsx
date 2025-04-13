@@ -14,6 +14,16 @@ import {
   BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb";
 import { Input } from "@/components/ui/input";
+import {
+  CheckCircle,
+  BookOpen,
+  Clock,
+  RefreshCcw,
+  ClipboardList,
+  School,
+  MousePointerClick,
+  ShieldCheck,
+} from "lucide-react";
 
 const dashboardInfo = {
   title: "VIT NPTEL Quiz Hub",
@@ -195,6 +205,49 @@ export default function AboutPage() {
     </CardContent>
   </Card>
 </div>
+{/* Key Highlights Card with Icons */}
+<div className="mb-8">
+  <h2 className="text-2xl font-bold mb-4">Why Use This Platform?</h2>
+  <Card>
+    <CardContent className="p-6 space-y-4">
+    
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        <div className="flex items-center gap-3">
+          <CheckCircle className="w-5 h-5 text-green-600" />
+          <span>100+ Practice Questions</span>
+        </div>
+        <div className="flex items-center gap-3">
+          <BookOpen className="w-5 h-5 text-blue-600" />
+          <span>12 Course Weeks</span>
+        </div>
+        <div className="flex items-center gap-3">
+          <Clock className="w-5 h-5 text-purple-600" />
+          <span>24/7 Access</span>
+        </div>
+        <div className="flex items-center gap-3">
+          <ClipboardList className="w-5 h-5 text-amber-600" />
+          <span>Instant Feedback</span>
+        </div>
+        <div className="flex items-center gap-3">
+          <RefreshCcw className="w-5 h-5 text-teal-600" />
+          <span>Unlimited Quiz Retries</span>
+        </div>
+        <div className="flex items-center gap-3">
+          <ShieldCheck className="w-5 h-5 text-rose-600" />
+          <span>Exam-Style MCQs</span>
+        </div>
+        <div className="flex items-center gap-3">
+          <School className="w-5 h-5 text-indigo-600" />
+          <span> For VIT Students</span>
+        </div>
+        <div className="flex items-center gap-3">
+          <MousePointerClick className="w-5 h-5 text-cyan-600" />
+          <span>No Login Needed</span>
+        </div>
+      </div>
+    </CardContent>
+  </Card>
+</div>
 
 
         {/* Tech Stack */}
@@ -207,7 +260,6 @@ export default function AboutPage() {
               <Badge variant="secondary">Next.js</Badge>
               <Badge variant="secondary">ShadCN UI</Badge>
               <Badge variant="secondary">TypeScript</Badge>
-              <Badge variant="secondary">PostgreSQL</Badge>
               <Badge variant="secondary">Tailwind CSS</Badge>
             </div>
           </CardContent>
