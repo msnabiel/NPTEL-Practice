@@ -268,7 +268,7 @@ const QuizApp: React.FC = () => {
 
       {/* Floating streak feedback */}
       {/* Fixed container for placement on screen */}
-<div className="fixed bottom-6 right-6 z-50 w-56">
+<div className="fixed bottom-6 right-6 z-50 w-48">
   {/* Inner relative container for feedback stacking */}
   <div className="relative w-full">
     <AnimatePresence>
