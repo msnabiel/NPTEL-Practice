@@ -30,20 +30,34 @@ type Question = {
   answer: string;
 };
 
-const QuizApp: React.FC = () => {
-  const questions: Question[] = Object.values(questionsByWeek).flat();
+function shuffleArray<T>(array: T[]): T[] {
+  const arr = [...array];
+  for (let i = arr.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [arr[i], arr[j]] = [arr[j], arr[i]];
+  }
+  return arr;
+}
 
-  const [answers, setAnswers] = useState<(string | null)[]>(
-    Array(questions.length).fill(null)
-  );
+const QuizApp: React.FC = () => {
+  const allQuestions: Question[] = Object.values(questionsByWeek).flat();
+
+  const [shuffledQuestions, setShuffledQuestions] = useState<Question[]>([]);
+  const [answers, setAnswers] = useState<(string | null)[]>([]);
   const [submitted, setSubmitted] = useState(false);
 
-  const handleSubmit = () => {
-    setSubmitted(true);
-  };
+  useEffect(() => {
+    const shuffled = shuffleArray(allQuestions);
+    setShuffledQuestions(shuffled);
+    setAnswers(Array(shuffled.length).fill(null));
+  }, []);
+
+  const handleSubmit = () => setSubmitted(true);
 
   const handleRestart = () => {
-    setAnswers(Array(questions.length).fill(null));
+    const reshuffled = shuffleArray(allQuestions);
+    setShuffledQuestions(reshuffled);
+    setAnswers(Array(reshuffled.length).fill(null));
     setSubmitted(false);
   };
 
@@ -56,10 +70,10 @@ const QuizApp: React.FC = () => {
   }, [submitted]);
 
   const score = answers.reduce((acc, selected, index) => {
-    return selected === questions[index].answer ? acc + 1 : acc;
+    return selected === shuffledQuestions[index].answer ? acc + 1 : acc;
   }, 0);
 
-  const percentage = (score / questions.length) * 100;
+  const percentage = (score / shuffledQuestions.length) * 100;
 
   const getRandom = (arr: string[]) => arr[Math.floor(Math.random() * arr.length)];
 
@@ -114,7 +128,7 @@ const QuizApp: React.FC = () => {
           </CardHeader>
           <CardContent className="space-y-4 text-base sm:text-lg">
             <div className="w-full text-center text-lg font-medium">
-              Your Score: {score} / {questions.length} ({percentage.toFixed(2)}%)
+              Your Score: {score} / {shuffledQuestions.length} ({percentage.toFixed(2)}%)
             </div>
 
             <Card
@@ -134,7 +148,7 @@ const QuizApp: React.FC = () => {
               <div className="text-lg sm:text-xl font-semibold">{feedback}</div>
             </Card>
 
-            {questions.map((question, index) => {
+            {shuffledQuestions.map((question, index) => {
               const selected = answers[index];
               const correct = selected === question.answer;
 
@@ -187,7 +201,7 @@ const QuizApp: React.FC = () => {
         </CardHeader>
 
         <CardContent className="space-y-6">
-          {questions.map((question, index) => {
+          {shuffledQuestions.map((question, index) => {
             const selected = answers[index];
             return (
               <div key={index} className="border-b pb-4 space-y-2">
