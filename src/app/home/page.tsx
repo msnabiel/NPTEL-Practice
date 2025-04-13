@@ -214,11 +214,11 @@ export default function AboutPage() {
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
         <div className="flex items-center gap-3">
           <CheckCircle className="w-5 h-5 text-green-600" />
-          <span>100+ Practice Questions</span>
+          <span>300+ Practice Questions</span>
         </div>
         <div className="flex items-center gap-3">
           <BookOpen className="w-5 h-5 text-blue-600" />
-          <span>12 Course Weeks</span>
+          <span>36 Course Weeks</span>
         </div>
         <div className="flex items-center gap-3">
           <Clock className="w-5 h-5 text-purple-600" />
