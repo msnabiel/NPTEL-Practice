@@ -44,9 +44,9 @@ function shuffleArray<T>(array: T[]): T[] {
   }
   return newArray;
 }
-
+const week = "week1";
 const Week1QuizPage: React.FC = () => {
-  const rawQuestions: Question[] = questionsByWeek["week1"] || [];
+  const rawQuestions: Question[] = questionsByWeek[week] || [];
 
   const [questions, setQuestions] = useState<QuizQuestion[]>([]);
   const [answers, setAnswers] = useState<(number | null)[]>([]);
