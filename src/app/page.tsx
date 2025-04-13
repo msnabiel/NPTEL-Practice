@@ -2,6 +2,8 @@
 
 import Link from "next/link";
 import Image from "next/image";
+import { ArrowRight } from "lucide-react";
+import { useRef } from "react"; 
 import { useState } from "react";
 import { ContentLayout } from "@/components/admin-panel/content-layout";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -14,6 +16,16 @@ import {
   BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb";
 import { Input } from "@/components/ui/input";
+import {
+  CheckCircle,
+  BookOpen,
+  Clock,
+  RefreshCcw,
+  ClipboardList,
+  School,
+  MousePointerClick,
+  ShieldCheck,
+} from "lucide-react";
 
 const dashboardInfo = {
   title: "VIT NPTEL Quiz Hub",
@@ -68,9 +80,13 @@ const dashboardInfo = {
 
 export default function AboutPage() {
   const [searchTerm, setSearchTerm] = useState("");
+  const quizSectionRef = useRef<HTMLDivElement | null>(null);
 
   const handleSearch = (e: React.ChangeEvent<HTMLInputElement>) => {
     setSearchTerm(e.target.value.toLowerCase());
+  };
+  const scrollToQuiz = () => {
+    quizSectionRef.current?.scrollIntoView({ behavior: "smooth" });
   };
 
   const filteredUpdates = dashboardInfo.nptelUpdates.filter((update) =>
@@ -127,6 +143,7 @@ export default function AboutPage() {
         </div>
 
         {/* Practice Quiz Topics */}
+        <div ref={quizSectionRef}>
         <h2 className="text-2xl font-bold mb-6">Available Quiz Topics</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
           {[
@@ -170,17 +187,22 @@ export default function AboutPage() {
                   <p className="dark:text-gray-300">{quiz.description}</p>
                 </CardHeader>
                 <CardContent>
-                  <div className="flex flex-wrap gap-2">
-                    {quiz.features.map((feature, idx) => (
-                      <Badge key={idx} variant="outline">
-                        {feature}
-                      </Badge>
-                    ))}
-                  </div>
-                </CardContent>
+  <div className="flex flex-wrap gap-2 mb-3">
+    {quiz.features.map((feature, idx) => (
+      <Badge key={idx} variant="outline">
+        {feature}
+      </Badge>
+    ))}
+  </div>
+  <p className="text-blue-600 font-medium hover:underline">
+    Click to start practicing →
+  </p>
+</CardContent>
+
               </Card>
             </Link>
           ))}
+        </div>
         </div>
         {/* About Section */}
 <div className="mb-8">
@@ -192,6 +214,49 @@ export default function AboutPage() {
           {paragraph}
         </p>
       ))}
+    </CardContent>
+  </Card>
+</div>
+{/* Key Highlights Card with Icons */}
+<div className="mb-8">
+  <h2 className="text-2xl font-bold mb-4">Why Use This Platform?</h2>
+  <Card>
+    <CardContent className="p-6 space-y-4">
+    
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        <div className="flex items-center gap-3">
+          <CheckCircle className="w-5 h-5 text-green-600" />
+          <span>300+ Practice Questions</span>
+        </div>
+        <div className="flex items-center gap-3">
+          <BookOpen className="w-5 h-5 text-blue-600" />
+          <span>36 Course Weeks</span>
+        </div>
+        <div className="flex items-center gap-3">
+          <Clock className="w-5 h-5 text-purple-600" />
+          <span>24/7 Access</span>
+        </div>
+        <div className="flex items-center gap-3">
+          <ClipboardList className="w-5 h-5 text-amber-600" />
+          <span>Instant Feedback</span>
+        </div>
+        <div className="flex items-center gap-3">
+          <RefreshCcw className="w-5 h-5 text-teal-600" />
+          <span>Unlimited Quiz Retries</span>
+        </div>
+        <div className="flex items-center gap-3">
+          <ShieldCheck className="w-5 h-5 text-rose-600" />
+          <span>Exam-Style MCQs</span>
+        </div>
+        <div className="flex items-center gap-3">
+          <School className="w-5 h-5 text-indigo-600" />
+          <span> For VIT Students</span>
+        </div>
+        <div className="flex items-center gap-3">
+          <MousePointerClick className="w-5 h-5 text-cyan-600" />
+          <span>No Login Needed</span>
+        </div>
+      </div>
     </CardContent>
   </Card>
 </div>
@@ -207,12 +272,19 @@ export default function AboutPage() {
               <Badge variant="secondary">Next.js</Badge>
               <Badge variant="secondary">ShadCN UI</Badge>
               <Badge variant="secondary">TypeScript</Badge>
-              <Badge variant="secondary">PostgreSQL</Badge>
               <Badge variant="secondary">Tailwind CSS</Badge>
             </div>
           </CardContent>
         </Card>
       </div>
+      {/* Floating Button */}
+      <button
+        onClick={scrollToQuiz}
+        className="fixed bottom-6 right-6 z-50 bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-full shadow-lg flex items-center gap-2 transition-all"
+      >
+        <span>Start Practicing</span>
+        <ArrowRight className="w-4 h-4" />
+      </button>
     </ContentLayout>
   );
 }
