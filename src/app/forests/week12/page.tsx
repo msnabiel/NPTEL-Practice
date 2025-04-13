@@ -220,7 +220,7 @@ const Week1QuizPage: React.FC = () => {
     <div className="flex justify-center items-center px-4 py-6">
       <Card className="w-full max-w-5xl shadow-md">
         <CardHeader>
-          <CardTitle className="text-xl">Week 1 Quiz</CardTitle>
+          <CardTitle className="text-xl">Week 12 Quiz</CardTitle>
         </CardHeader>
         <CardContent className="space-y-6">
           {questions.map((question, index) => {
