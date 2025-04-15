@@ -37,7 +37,7 @@ export function getMenuList(pathname: string): Group[] {
       ],
     },
     {
-      groupLabel: "Practise",
+      groupLabel: "Practice",
       menus: [
         {
           href: "/wildlife",
