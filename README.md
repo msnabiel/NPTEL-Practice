@@ -1,104 +1,83 @@
-# [shadcn/ui sidebar](https://shadcn-ui-sidebar.salimi.my) &middot; [![Author Salimi](https://img.shields.io/badge/Author-Salimi-%3C%3E)](https://www.salimi.my)
+# 📚 NPTEL Quiz App
 
-A stunning and functional retractable sidebar for Next.js built on top of [shadcn/ui](https://ui.shadcn.com) complete with desktop and mobile responsiveness.
+This is a web-based quiz application built to help students prepare for NPTEL courses and exams. It supports shuffled multiple-choice questions (MCQs) for various weekly topics with smooth navigation and scoring features.
 
-## Features
+## ✨ Features
 
-- Retractable mini and wide sidebar
-- Scrollable sidebar menu
-- Sheet menu for mobile
-- Grouped menu with labels
-- Collapsible submenu
-- Extracted menu items list
+- 🧠 Weekly multiple-choice questions for NPTEL courses  
+- 🔥 Streak based and feedback based MCQ’s
+- 🎯 Auto-scoring with shuffled MCQ's
+- 📚 Topic and week-wise organization  
+- ⚡ Smooth and responsive user interface  
+- 🌙 Dark mode support (optional)
 
-## Tech/framework used
+## 🚀 Getting Started
 
-- Next.js 14
-- Shadcn/ui
-- Tailwind CSS
-- TypeScript
-- Zustand
-
-## Installation
-
-### Custom registry
-
-If you are using @shadcn/ui 2.0.0 or later, you can install the component directly from the registry.
+### 1. Clone the repository
 
 ```bash
-npx shadcn@latest add https://raw.githubusercontent.com/salimi-my/shadcn-ui-sidebar/refs/heads/master/public/registry/shadcn-sidebar.json
-
-or
-
-npx shadcn@latest add https://shadcn-ui-sidebar.salimi.my/registry/shadcn-sidebar.json
+git clone https://github.com/msnabiel/NPTEL-Practice.git
+cd nptel-quiz
 ```
 
-### Usage example for Nextjs
-```tsx
-//layout.tsx
-import AdminPanelLayout from "@/components/admin-panel/admin-panel-layout";
+### 2. Install dependencies
 
-export default async function Layout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
-  return <AdminPanelLayout>{children}</AdminPanelLayout>;
-}
-
-//page.tsx
-import { ContentLayout } from "@/components/admin-panel/content-layout";
-
-export default function Page() {
-  return (
-    <ContentLayout title="Test">
-      <div>Test</div>
-    </ContentLayout>
-  );
-}
+```bash
+npm install
+# or
+yarn install
 ```
 
-## Starting the project locally
+### 3. Run the development server
 
-1. Clone the repository
+```bash
+npm run dev
+# or
+yarn dev
+```
 
-   ```bash
-   git clone https://github.com/salimi-my/shadcn-ui-sidebar
-   ```
+### 4. Build for production
 
-2. Install dependencies
+```bash
+npm run build
+npm start
+```
 
-   ```bash
-   cd shadcn-ui-sidebar
-   npm install
-   ```
+## 🧩 Tech Stack
 
-3. Run the development server
+- **Next.js / React** – Frontend framework  
+- **Tailwind CSS** – For styling  
+- **TypeScript** – For type safety  
+- **Local JSON / Static files** – For question data  
 
-   ```bash
-   npm run dev
-   ```
+## 📁 Folder Structure
 
-## Demo
+```
+/components      → Reusable UI components (QuizCard, QuestionTable, etc.)  
+/pages           → App routes (index, quiz/[week].tsx)  
+/data            → MCQ questions organized by week  
+/styles          → Custom styling if needed  
+```
 
-The app is hosted on Vercel. [Click here](https://shadcn-ui-sidebar.salimi.my) to visit.
-<br>
-Direct demo link: `https://shadcn-ui-sidebar.salimi.my`
+## 📦 Deployment
 
-## Screenshots
+This app can be deployed to **Vercel**, **Netlify**, or any platform that supports Next.js.
 
-#### Light mode
+## 🙌 Contributing
 
-![Light mode](/screenshots/screenshot-1.png)
+Pull requests are welcome! For major changes, open an issue first to discuss what you’d like to change.
 
-#### Dark mode
+## 🧠 Upcoming Features
 
-![Dark mode](/screenshots/screenshot-2.png)
+- Week selector with progress tracking  
+- MCQ explanations and solutions  
+- Print/PDF export of quizzes  
+- Bookmark tricky questions  
 
-#### Mini sidebar
+## 📜 License
 
-![Mini sidebar](/screenshots/screenshot-3.png)
+[MIT](LICENSE)
 
-#### Sheet menu
+---
 
-<img src="/screenshots/screenshot-4.png" width="300">
+Made with ❤️ for fellow NPTEL learners by Nabiel.
