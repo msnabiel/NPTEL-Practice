@@ -1,5 +1,5 @@
 "use client";
-
+import { Analytics } from '@vercel/analytics/next';
 import Link from "next/link";
 import Image from "next/image";
 import { ArrowRight } from "lucide-react";
@@ -285,6 +285,7 @@ export default function AboutPage() {
         <span>Start Practicing</span>
         <ArrowRight className="w-4 h-4" />
       </button>
+      <Analytics />
     </ContentLayout>
   );
 }
