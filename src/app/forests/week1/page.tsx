@@ -1,5 +1,5 @@
 "use client";
-
+import { Analytics } from '@vercel/analytics/next';
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
 import { ContentLayout } from "@/components/admin-panel/content-layout";
@@ -289,6 +289,7 @@ export default function Week1Page() {
       </Breadcrumb>
 
       <Week1QuizPage />
+       <Analytics />
     </ContentLayout>
   );
 }
