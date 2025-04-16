@@ -1,5 +1,5 @@
 "use client";
-
+import { Analytics } from '@vercel/analytics/next';
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
@@ -338,6 +338,7 @@ export default function AllWeeksPage() {
       </Breadcrumb>
 
       <QuizApp />
+       <Analytics />
     </ContentLayout>
   );
 }
