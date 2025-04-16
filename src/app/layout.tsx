@@ -1,5 +1,6 @@
 "use client"; // This makes the layout a client component
 
+import { Analytics } from '@vercel/analytics/next';
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import "./globals.css";
@@ -30,6 +31,7 @@ export default function RootLayout({
             children
           )}
         </ThemeProvider>
+        <Analytics />
       </body>
     </html>
   );
