@@ -1,5 +1,5 @@
 "use client";
-
+import { Analytics } from "@vercel/analytics/react"
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { Card, CardTitle, CardContent } from "@/components/ui/card";
@@ -41,6 +41,7 @@ export default function ForestsPage() {
           </Link>
         </motion.div>
       </div>
+      <Analytics />
     </ContentLayout>
   );
 }
