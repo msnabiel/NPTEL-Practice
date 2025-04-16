@@ -1,15 +1,11 @@
 // app/layout.tsx
-
-"use client";
-
-import { usePathname } from "next/navigation";
-import { useEffect, useState } from "react";
 import "./globals.css";
-import { ThemeProvider } from "@/components/providers/theme-provider";
+import { Metadata } from "next";
 import AdminPanelLayout from "@/components/admin-panel/admin-panel-layout";
+import ClientWrapper from "@/components/client-wrapper";
 import { Analytics } from '@vercel/analytics/next';
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "VIT NPTEL Quiz Hub",
   description: "A platform for VIT Chennai students to practice NPTEL quizzes.",
   openGraph: {
@@ -39,24 +35,10 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-  const pathname = usePathname();
-  const [shouldRenderAdminLayout, setShouldRenderAdminLayout] = useState(true);
-
-  useEffect(() => {
-    const noSidebarRoutes = ["/login-signup"];
-    setShouldRenderAdminLayout(!noSidebarRoutes.includes(pathname));
-  }, [pathname]);
-
   return (
     <html lang="en" suppressHydrationWarning>
       <body>
-        <ThemeProvider attribute="class" defaultTheme="Light" enableSystem>
-          {shouldRenderAdminLayout ? (
-            <AdminPanelLayout>{children}</AdminPanelLayout>
-          ) : (
-            children
-          )}
-        </ThemeProvider>
+        <ClientWrapper>{children}</ClientWrapper>
         <Analytics />
       </body>
     </html>
