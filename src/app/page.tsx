@@ -54,7 +54,7 @@ const dashboardInfo = {
     {
   id: 1,
   title: "Exam Centre Details & Timings Released",
-  summary: "Login to internalapp.nptel.ac.in with your registered email and password as DOB (YYYY-MM-DD) to view April 2025 exam city and centre. Hall ticket coming soon.",
+  summary: "Login to internalapp.nptel.ac.in with your registered email and password as DOB (YYYY-MM-DD) to view April 2025 exam city and centre. Hall tickets are released",
   date: "2025-04-11",
   link: "https://internalapp.nptel.ac.in"
 },
