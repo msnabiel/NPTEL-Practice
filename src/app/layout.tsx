@@ -21,6 +21,7 @@ export const metadata: Metadata = {
       },
     ],
     type: "website",
+    siteName: "VIT NPTEL Quiz Hub",
   },
   twitter: {
     card: "summary_large_image",
