@@ -686,4 +686,56 @@ type Question = {
       answer: "Uttarakhand",
     },
   ],
+      week12: [
+    {
+      question: "The term laterite soil is derived from Latin later which means",
+      options: ["red", "brick", "fertile", "infertile"],
+      answer: "brick",
+    },
+    {
+      question: "Zoo is an example of",
+      options: ["in-situ conservation", "ex-situ conservation", "in-situ preservation", "ex-situ preservation"],
+      answer: "ex-situ conservation",
+    },
+    {
+      question: "The breast height for Japan and Korea is",
+      options: ["1.1 m", "1.2 m", "1.3 m", "1.4 m"],
+      answer: "1.2 m",
+    },
+    {
+      question: "The art and science of cultivating forest crops is called",
+      options: ["forestiticulture", "monoculture", "silviculture", "silvics"],
+      answer: "silviculture",
+    },
+    {
+      question: "A tree has dbh of 35 cm. Find its basal area in sq m.",
+      options: [".049", ".096", ".149", ".195"],
+      answer: ".096",
+    },
+    {
+      question: "Self ploughing character is seen in",
+      options: ["black cotton soil", "alluvial soil", "saline soil", "red and yellow soil"],
+      answer: "black cotton soil",
+    },
+    {
+      question: "Vertical arrangement of soil horizons is called",
+      options: ["soil texture", "soil structure", "soil profile", "soil science"],
+      answer: "soil profile",
+    },
+    {
+      question: "In a triangle, the angle between base and hypotenuse, θ = 60° and the hypotenuse c = 4 cm. Find the length of the base b.",
+      options: ["0.66", "1", "1.5", "2"],
+      answer: "2",
+    },
+    {
+      question: "“Allowing some places and some creatures to exist without significant human interference” is a definition of",
+      options: ["conservation", "preservation", "environmentalism", "all of these"],
+      answer: "preservation",
+    },
+    {
+      question: "Montane sub-tropical forests do not include",
+      options: ["broadleaved forests", "pine forests", "semi-evergreen forests", "dry evergreen forests"],
+      answer: "dry evergreen forests",
+    },
+  ],
   };
