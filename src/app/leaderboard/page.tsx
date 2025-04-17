@@ -97,14 +97,19 @@ export default function LeaderboardPage() {
     fetchData();
   };
 
-  const formatIST = (timestamp: string) => {
-    return new Date(timestamp).toLocaleString("en-IN", {
-      timeZone: "Asia/Kolkata",
-      hour12: true,
-      dateStyle: "medium",
-      timeStyle: "short",
-    });
-  };
+const formatIST = (timestamp: string) => {
+  const date = new Date(timestamp);
+  // Manually adjust the time to IST (+5:30)
+  date.setHours(date.getHours() + 5);
+  date.setMinutes(date.getMinutes() + 30);
+  
+  return date.toLocaleString("en-IN", {
+    hour12: true,
+    dateStyle: "medium",
+    timeStyle: "short",
+  });
+};
+
 
   return (
     <ContentLayout title="Leaderboard">
