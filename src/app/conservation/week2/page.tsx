@@ -278,7 +278,7 @@ export default function Week1Page() {
           <BreadcrumbSeparator />
           <BreadcrumbItem>
             <BreadcrumbLink asChild>
-              <Link href="/conservation">Conservation Ecology</Link>
+              <Link href="/conservation">Conservation Economics</Link>
             </BreadcrumbLink>
           </BreadcrumbItem>
           <BreadcrumbSeparator />
