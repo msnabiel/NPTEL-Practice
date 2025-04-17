@@ -10,6 +10,7 @@ import {
   IndianRupee,
   HelpCircleIcon,
   TrophyIcon,
+  ClipboardPenLineIcon,
 } from "lucide-react";
 
 type Menu = {
@@ -54,6 +55,11 @@ export function getMenuList(pathname: string): Group[] {
           href: "/conservation",
           label: "Conservation Economics",
           icon: FileText,
+        },
+        {
+          href: "/ranked",
+          label: "Ranked Tests",
+          icon: ClipboardPenLineIcon,
         },
         /*{
           href: "/categories",
