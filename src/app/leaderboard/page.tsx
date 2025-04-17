@@ -30,9 +30,8 @@ import {
 } from "@/components/ui/select";
 import { format } from "date-fns";
 
-// Supabase connection constants
-const SUPABASE_URL = "https://euninjhmzfthqulcfvdz.supabase.co";
-const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImV1bmluamhtemZ0aHF1bGNmdmR6Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDQ1NTU3OTksImV4cCI6MjA2MDEzMTc5OX0.QOVwBwdh71Skyzc9PXPpACrr6pBTJGK_6qc3WXDGYFk";
+const SUPABASE_URL = process.env.NEXT_PUBLIC_SUPABASE_URL!;
+const SUPABASE_ANON_KEY = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!;
 
 // Create Supabase client
 const supabase = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
