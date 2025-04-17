@@ -20,7 +20,7 @@ const subjects = [
   },
   {
     name: "Conservation Economics",
-    link: "/economics",
+    link: "/conservation",
     gradient: "from-blue-800 via-blue-700 to-blue-600",
     border: "border-blue-300",
   },
