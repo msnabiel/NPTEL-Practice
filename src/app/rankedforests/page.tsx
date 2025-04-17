@@ -229,8 +229,8 @@ const QuizApp: React.FC = () => {
   );
   if (!started) {
     return (
-      <div className="flex justify-center items-center min-h-screen p-6">
-        <Card className="w-full max-w-md shadow-md p-6 space-y-4">
+      <div className="flex justify-center items-center min-h-screen w-screen bg-white">
+  <Card className="w-full max-w-md shadow-lg p-6 space-y-4 flex flex-col items-center">
           <CardTitle className="text-center">Enter Your Name to Start</CardTitle>
           <input
             type="text"
