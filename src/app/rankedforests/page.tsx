@@ -322,7 +322,7 @@ export default function AllWeeksPage() {
           </BreadcrumbItem>
           <BreadcrumbSeparator />
           <BreadcrumbItem>
-            <BreadcrumbLink asChild><Link href="/forests">Forests</Link></BreadcrumbLink>
+            <BreadcrumbLink asChild><Link href="/ranked">Forests</Link></BreadcrumbLink>
           </BreadcrumbItem>
           <BreadcrumbSeparator />
           <BreadcrumbItem>
