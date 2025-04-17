@@ -660,7 +660,7 @@ week12: [
   {
     question: "As per Wildlife Protection Act 1972 (WPA 1972), wildlife includes any animal, aquatic or land vegetation which forms part of any",
     options: ["ecosystem", "state", "country", "habitat"],
-    answer: "ecosystem",
+    answer: "habitat",
   },
   {
     question: "The tiger has a home range of several square kilometres, regulates the ecosystem through controlling herbivore populations and trophic cascades, and people come to tiger reserves to watch tigers. Thus, the tiger can be called as",
@@ -695,7 +695,7 @@ week12: [
   {
     question: "We prefer those areas for the creation of a conservation reserve where the level of threat is",
     options: ["very high", "medium", "very low", "non-existent"],
-    answer: "very low",
+    answer: "medium",
   },
   {
     question: "The elephant has a home range of several square kilometres, regulates the ecosystem by its habit of destructive feeding, and people can relate to this animal which is important for conservation. Given this background, the elephant can be called as",
