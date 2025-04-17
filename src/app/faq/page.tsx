@@ -111,7 +111,14 @@ export default function FAQPage() {
             <AccordionItem value="q6">
               <AccordionTrigger>Is Black and White printout of Hall ticket sufficent?</AccordionTrigger>
               <AccordionContent>
-                Yes, Black and White printout of Hall ticket sufficent.
+                Yes, Black and White printout of Hall ticket is sufficent.
+              </AccordionContent>
+            </AccordionItem>
+
+            <AccordionItem value="q7">
+              <AccordionTrigger>Where do I download my Hall Ticket from?</AccordionTrigger>
+              <AccordionContent>
+                Download your Hall ticket at https://internalapp.nptel.ac.in/B2C/.
               </AccordionContent>
             </AccordionItem>
 
