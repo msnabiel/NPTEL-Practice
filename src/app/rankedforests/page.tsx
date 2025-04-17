@@ -266,6 +266,7 @@ const QuizApp: React.FC = () => {
                   Q{index + 1}: {question.question}
                 </div>
                 <div className="grid grid-cols-1 gap-3">
+                  {question.options.map((option) => (
                   <Button
   key={option}
   variant="outline"
