@@ -30,10 +30,10 @@ import {
 } from "@/components/ui/select";
 import { format } from "date-fns";
 
-const supabase = createClient(
-  process.env.SUPABASE_URL!,
-  process.env.SUPABASE_ANON_KEY!
-);
+//const supabase = createClient(
+//  process.env.SUPABASE_URL!,
+//  process.env.SUPABASE_ANON_KEY!
+//);
 
 // Create Supabase client
 //const supabase = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
@@ -52,7 +52,10 @@ export default function LeaderboardPage() {
   const [filteredEntries, setFilteredEntries] = useState<LeaderboardEntry[]>([]);
   const [selectedCourse, setSelectedCourse] = useState<string>("All Courses");
   const [isRefreshing, setIsRefreshing] = useState(false);
-
+  const supabase: SupabaseClient = createClient(
+    process.env.NEXT_PUBLIC_SUPABASE_URL!,
+    process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!
+  );
   // Fetch leaderboard data from Supabase
   const fetchData = async () => {
     setIsRefreshing(true);
