@@ -9,6 +9,7 @@ import {
   FileText,
   IndianRupee,
   HelpCircleIcon,
+  TrophyIcon,
 } from "lucide-react";
 
 type Menu = {
@@ -69,6 +70,11 @@ export function getMenuList(pathname: string): Group[] {
     {
       groupLabel: "Others",
       menus: [
+        {
+          href: "/leaderboard",
+          label: "LeaderBoard",
+          icon: TrophyIcon,
+        },
         {
           href: "/faq",
           label: "FAQ's",
