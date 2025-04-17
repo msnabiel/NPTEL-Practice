@@ -12,17 +12,9 @@ export const metadata: Metadata = {
     title: "VIT NPTEL Quiz Hub",
     description: "Practice NPTEL quizzes and Ace the exam!",
     url: "https://nptel-vit.vercel.app",
-    images: [
-      {
-        url: "https://nptel-vit.vercel.app/og-image.png",
-        width: 1200,
-        height: 630,
-        alt: "VIT NPTEL Quiz Hub",
-      },
-    ],
     type: "website",
     siteName: "VIT NPTEL Quiz Hub",
-    image: "https://nptel-vit.vercel.app/og-image.png",
+    images: ["https://nptel-vit.vercel.app/og-image.png"],
   },
   twitter: {
     card: "summary_large_image",
