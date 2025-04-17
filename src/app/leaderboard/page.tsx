@@ -97,19 +97,26 @@ export default function LeaderboardPage() {
     fetchData();
   };
 
-const formatIST = (timestamp: string) => {
-  const date = new Date(timestamp);
-  // Manually adjust the time to IST (+5:30)
-  date.setHours(date.getHours() + 5);
-  date.setMinutes(date.getMinutes() + 30);
-  
-  return date.toLocaleString("en-IN", {
-    hour12: true,
-    dateStyle: "medium",
-    timeStyle: "short",
-  });
+  // Function to format the time from milliseconds to minutes and seconds
+
+const formatTime = (timeInSeconds: number) => {
+  const minutes = Math.floor(timeInSeconds / 60);
+  const seconds = timeInSeconds % 60;
+  return `${minutes}m ${seconds}s`;
 };
 
+  const formatIST = (timestamp: string) => {
+    const date = new Date(timestamp);
+    // Manually adjust the time to IST (+5:30)
+    date.setHours(date.getHours() + 5);
+    date.setMinutes(date.getMinutes() + 30);
+  
+    return date.toLocaleString("en-IN", {
+      hour12: true,
+      dateStyle: "medium",
+      timeStyle: "short",
+    });
+  };
 
   return (
     <ContentLayout title="Leaderboard">
@@ -193,7 +200,7 @@ const formatIST = (timestamp: string) => {
                       <TableCell className="py-3">{entry.course}</TableCell>
                       <TableCell className="py-3">{entry.score}</TableCell>
                       <TableCell className="py-3">
-                        {(entry.time / 1000).toFixed(2)}s
+                        {formatTime(entry.time)} {/* Use formatted time */}
                       </TableCell>
                       <TableCell className="py-3">
                         {formatIST(entry.timestamp)}
