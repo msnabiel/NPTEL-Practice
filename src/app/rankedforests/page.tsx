@@ -268,27 +268,28 @@ const QuizApp: React.FC = () => {
                 <div className="grid grid-cols-1 gap-3">
                   {question.options.map((option) => (
                     <Button
-                      key={option}
-                      variant="outline"
-                      className={clsx("justify-start text-left w-full", selected === option ? "bg-blue-200 border-blue-600" : "")}
-                      onClick={() => {
-                        const updated = [...answers];
-                        updated[index] = option;
-                        setAnswers(updated);
-                        const correct = option === shuffledQuestions[index].answer;
-                        if (correct && lastCorrectIndex === index - 1) {
-                          setStreak((prev) => prev + 1);
-                          setLastCorrectIndex(index);
-                        } else if (correct) {
-                          setStreak(1);
-                          setLastCorrectIndex(index);
-                        } else {
-                          setStreak(0);
-                        }
-                      }}
-                    >
-                      {option}
-                    </Button>
+  key={option}
+  variant="outline"
+  className={clsx("justify-start text-left w-full", selected === option ? "bg-blue-200 border-blue-600" : "")}
+  onClick={() => {
+    const updated = [...answers];
+    updated[index] = option;
+    setAnswers(updated);
+    const correct = option === shuffledQuestions[index].answer;
+    if (correct && lastCorrectIndex === index - 1) {
+      setStreak((prev) => prev + 1);
+      setLastCorrectIndex(index);
+    } else if (correct) {
+      setStreak(1);
+      setLastCorrectIndex(index);
+    } else {
+      setStreak(0);
+    }
+  }}
+>
+  <div className="w-full text-left">{option}</div>
+</Button>
+
                   ))}
                 </div>
               </div>
