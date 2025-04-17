@@ -28,7 +28,7 @@ const subjects = [
 
 export default function SubjectSelectionPage() {
   return (
-    <ContentLayout title="Select a Subject">
+    <ContentLayout title="Ranked Tests">
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 px-4 py-8">
         {subjects.map((subject, index) => (
           <motion.div
