@@ -22,6 +22,7 @@ export const metadata: Metadata = {
     ],
     type: "website",
     siteName: "VIT NPTEL Quiz Hub",
+    image: "https://nptel-vit.vercel.app/og-image.png",
   },
   twitter: {
     card: "summary_large_image",
