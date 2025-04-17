@@ -53,8 +53,8 @@ export default function LeaderboardPage() {
   const [selectedCourse, setSelectedCourse] = useState<string>("All Courses");
   const [isRefreshing, setIsRefreshing] = useState(false);
   const supabase = createClient(
-    process.env.NEXT_PUBLIC_SUPABASE_URL!,
-    process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!
+     process.env.SUPABASE_URL!,
+    process.env.SUPABASE_ANON_KEY!
   );
   // Fetch leaderboard data from Supabase
   const fetchData = async () => {
