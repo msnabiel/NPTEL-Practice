@@ -28,21 +28,13 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
-import { format } from "date-fns";
 
-//const supabase = createClient(
-//  process.env.SUPABASE_URL!,
-//  process.env.SUPABASE_ANON_KEY!
-//);
-
-// Create Supabase client
-//const supabase = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
-
+// Define the leaderboard entry type
 type LeaderboardEntry = {
   id: number;
-  name: string; // or 'name' depending on your DB schema
+  name: string;
   score: number;
-  time: number; // time taken in milliseconds
+  time: number; // in milliseconds
   course: string;
   timestamp: string;
 };
@@ -52,12 +44,12 @@ export default function LeaderboardPage() {
   const [filteredEntries, setFilteredEntries] = useState<LeaderboardEntry[]>([]);
   const [selectedCourse, setSelectedCourse] = useState<string>("All Courses");
   const [isRefreshing, setIsRefreshing] = useState(false);
-  const supabase = createClient(
-  process.env.NEXT_PUBLIC_SUPABASE_URL!,
-  process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!
-);
 
-  // Fetch leaderboard data from Supabase
+  const supabase = createClient(
+    process.env.NEXT_PUBLIC_SUPABASE_URL!,
+    process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!
+  );
+
   const fetchData = async () => {
     setIsRefreshing(true);
 
@@ -69,7 +61,7 @@ export default function LeaderboardPage() {
       return;
     }
 
-    // Sort by score DESC, time ASC
+    // Sort: highest score first, then lowest time
     const sortedData = (data || []).sort((a, b) => {
       if (b.score !== a.score) return b.score - a.score;
       return a.time - b.time;
@@ -94,7 +86,6 @@ export default function LeaderboardPage() {
 
   const handleCourseChange = (course: string) => {
     setSelectedCourse(course);
-
     if (course === "All Courses") {
       setFilteredEntries(entries);
     } else {
@@ -104,6 +95,15 @@ export default function LeaderboardPage() {
 
   const handleRefresh = () => {
     fetchData();
+  };
+
+  const formatIST = (timestamp: string) => {
+    return new Date(timestamp).toLocaleString("en-IN", {
+      timeZone: "Asia/Kolkata",
+      hour12: true,
+      dateStyle: "medium",
+      timeStyle: "short",
+    });
   };
 
   return (
@@ -191,7 +191,7 @@ export default function LeaderboardPage() {
                         {(entry.time / 1000).toFixed(2)}s
                       </TableCell>
                       <TableCell className="py-3">
-                        {format(new Date(entry.timestamp), "MMMM dd, yyyy 'at' hh:mm a")}
+                        {formatIST(entry.timestamp)}
                       </TableCell>
                     </TableRow>
                   ))}
