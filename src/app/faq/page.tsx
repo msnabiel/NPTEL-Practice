@@ -108,6 +108,13 @@ export default function FAQPage() {
               </AccordionContent>
             </AccordionItem>
 
+            <AccordionItem value="q2">
+              <AccordionTrigger>Is Black and White printout of Hall ticket sufficent?</AccordionTrigger>
+              <AccordionContent>
+                Yes, Black and White printout of Hall ticket sufficent.
+              </AccordionContent>
+            </AccordionItem>
+
           </Accordion>
         </div>
       </div>
