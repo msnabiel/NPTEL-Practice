@@ -8,19 +8,19 @@ import { ContentLayout } from "@/components/admin-panel/content-layout";
 const subjects = [
   {
     name: "Forests and Their Management",
-    link: "/forests",
+    link: "/rankedforests",
     gradient: "from-green-800 via-green-700 to-green-600",
     border: "border-green-300",
   },
   {
     name: "Wildlife Ecology",
-    link: "/wildlife",
+    link: "/rankedwildlife",
     gradient: "from-yellow-800 via-yellow-700 to-yellow-600",
     border: "border-yellow-300",
   },
   {
     name: "Conservation Economics",
-    link: "/conservation",
+    link: "/rankedconservation",
     gradient: "from-blue-800 via-blue-700 to-blue-600",
     border: "border-blue-300",
   },
