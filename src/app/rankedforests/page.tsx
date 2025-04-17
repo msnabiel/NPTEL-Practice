@@ -267,10 +267,13 @@ const QuizApp: React.FC = () => {
                 </div>
                 <div className="grid grid-cols-1 gap-3">
                   {question.options.map((option) => (
-                    <Button
+<Button
   key={option}
   variant="outline"
-  className={clsx("justify-start text-left w-full", selected === option ? "bg-blue-200 border-blue-600" : "")}
+  className={clsx(
+    "justify-start text-left w-full whitespace-normal break-words px-4 py-2",
+    selected === option ? "bg-blue-200 border-blue-600" : ""
+  )}
   onClick={() => {
     const updated = [...answers];
     updated[index] = option;
@@ -287,8 +290,9 @@ const QuizApp: React.FC = () => {
     }
   }}
 >
-  <div className="w-full text-left">{option}</div>
+  <span className="block w-full">{option}</span>
 </Button>
+
 
                   ))}
                 </div>
