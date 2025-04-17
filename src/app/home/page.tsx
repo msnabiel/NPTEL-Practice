@@ -1,5 +1,5 @@
 "use client";
-import { Analytics } from '@vercel/analytics/next';
+
 import Link from "next/link";
 import Image from "next/image";
 import { ArrowRight } from "lucide-react";
@@ -8,6 +8,7 @@ import { useState } from "react";
 import { ContentLayout } from "@/components/admin-panel/content-layout";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
+import { useRouter } from "next/navigation";
 import {
   Breadcrumb,
   BreadcrumbItem,
@@ -76,8 +77,12 @@ const dashboardInfo = {
   ],
   
 };
+// Define a base offset for the bottom-most button
+const baseOffset = 24; // in pixels
+const gap = 64; // vertical spacing between buttons (px)
 
 export default function AboutPage() {
+  const router = useRouter();
   const [searchTerm, setSearchTerm] = useState("");
   const quizSectionRef = useRef<HTMLDivElement | null>(null);
 
@@ -276,15 +281,34 @@ export default function AboutPage() {
           </CardContent>
         </Card>
       </div>
-      {/* Floating Button */}
-      <button
-        onClick={scrollToQuiz}
-        className="fixed bottom-6 right-6 z-50 bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-full shadow-lg flex items-center gap-2 transition-all"
-      >
-        <span>Start Practicing</span>
-        <ArrowRight className="w-4 h-4" />
-      </button>
-      <Analytics />
+{/* Floating Button for Leaderboard */}
+<button
+  onClick={() => router.push("/leaderboard")}
+  className="fixed bottom-40 right-6 z-50 bg-yellow-600 hover:bg-yellow-700 text-white px-6 py-3 rounded-full shadow-lg flex items-center gap-2 transition-all"
+>
+  <span>Leaderboard</span>
+  <ArrowRight className="w-4 h-4" />
+</button>
+
+{/* Floating Button for Test Your Rank */}
+<button
+  onClick={() => router.push("/ranked")}
+  className="fixed bottom-24 right-6 z-50 bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-full shadow-lg flex items-center gap-2 transition-all"
+>
+  <span>Know Your Rank</span>
+  <ArrowRight className="w-4 h-4" />
+</button>
+
+{/* Floating Button for Practice Quiz */}
+<button
+  onClick={scrollToQuiz}
+  className="fixed bottom-8 right-6 z-50 bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-full shadow-lg flex items-center gap-2 transition-all"
+>
+  <span>Start Practicing</span>
+  <ArrowRight className="w-4 h-4" />
+</button>
+
+
     </ContentLayout>
   );
 }
