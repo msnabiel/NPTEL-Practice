@@ -44,6 +44,7 @@ export default function LeaderboardPage() {
   const [filteredEntries, setFilteredEntries] = useState<LeaderboardEntry[]>([]);
   const [selectedCourse, setSelectedCourse] = useState<string>("All Courses");
   const [isRefreshing, setIsRefreshing] = useState(false);
+  const [searchQuery, setSearchQuery] = useState("");
 
   const supabase = createClient(
     process.env.NEXT_PUBLIC_SUPABASE_URL!,
@@ -84,14 +85,29 @@ export default function LeaderboardPage() {
     fetchData();
   }, []);
 
-  const handleCourseChange = (course: string) => {
-    setSelectedCourse(course);
-    if (course === "All Courses") {
-      setFilteredEntries(entries);
-    } else {
-      setFilteredEntries(entries.filter((entry) => entry.course === course));
-    }
-  };
+ const filterEntries = (course: string, query: string) => {
+  let result = entries;
+
+  if (course !== "All Courses") {
+    result = result.filter((entry) => entry.course === course);
+  }
+
+  if (query.trim()) {
+    result = result.filter((entry) =>
+      entry.name.toLowerCase().includes(query.toLowerCase())
+    );
+  }
+
+  setFilteredEntries(result);
+};
+
+const handleCourseChange = (course: string) => {
+  setSelectedCourse(course);
+};
+
+useEffect(() => {
+  filterEntries(selectedCourse, searchQuery);
+}, [selectedCourse, searchQuery]);
 
   const handleRefresh = () => {
     fetchData();
@@ -176,6 +192,16 @@ const formatTime = (timeInSeconds: number) => {
                 </SelectContent>
               </Select>
             </div>
+            <div className="mb-6">
+  <input
+    type="text"
+    placeholder="Search by name..."
+    value={searchQuery}
+    onChange={(e) => setSearchQuery(e.target.value)}
+    className="w-full p-3 border rounded-md shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+  />
+</div>
+
 
             {filteredEntries.length > 0 ? (
               <Table className="border-collapse w-full">
@@ -190,23 +216,21 @@ const formatTime = (timeInSeconds: number) => {
                   </TableRow>
                 </TableHeader>
                 <TableBody>
-                  {filteredEntries.map((entry, idx) => (
-                    <TableRow
-                      key={entry.id}
-                      className="hover:bg-gray-100 dark:hover:bg-gray-800 transition-all"
-                    >
-                      <TableCell className="py-3">{idx + 1}</TableCell>
-                      <TableCell className="py-3">{entry.name}</TableCell>
-                      <TableCell className="py-3">{entry.course}</TableCell>
-                      <TableCell className="py-3">{entry.score}</TableCell>
-                      <TableCell className="py-3">
-                        {formatTime(entry.time)} {/* Use formatted time */}
-                      </TableCell>
-                      <TableCell className="py-3">
-                        {formatIST(entry.timestamp)}
-                      </TableCell>
-                    </TableRow>
-                  ))}
+                  {filteredEntries.map((entry) => {
+  const originalRank = entries.findIndex((e) => e.id === entry.id) + 1;
+  return (
+    <TableRow key={entry.id}>
+      <TableCell>{originalRank}</TableCell>
+      <TableCell>{entry.name}</TableCell>
+      <TableCell>{entry.course}</TableCell>
+      <TableCell>{entry.score}</TableCell>
+      <TableCell>{formatTime(entry.time)}</TableCell>
+      <TableCell>
+        {format(new Date(entry.timestamp), "MMMM dd, yyyy 'at' hh:mm a")}
+      </TableCell>
+    </TableRow>
+  );
+})}
                 </TableBody>
               </Table>
             ) : (
