@@ -201,7 +201,7 @@ const QuizApp: React.FC = () => {
           <Button
             variant="secondary"
             onClick={() => {
-              const text = `🏆 ${name} scored ${score}/${shuffledQuestions.length} (${percentage.toFixed(1)}%) in the "Forests and Their Management" quiz! Try it yourself at https://nptel-vit.vercel.app/ranked;
+              const text = `🏆 ${name} scored ${score}/${shuffledQuestions.length} (${percentage.toFixed(1)}%) in the "Forests and Their Management" quiz! Try it yourself at https://nptel-vit.vercel.app/ranked`;
               if (navigator.share) {
                 navigator.share({
                   title: "My Quiz Result",
