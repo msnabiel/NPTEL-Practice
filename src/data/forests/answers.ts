@@ -735,7 +735,7 @@ type Question = {
     {
       question: "Montane sub-tropical forests do not include",
       options: ["broadleaved forests", "pine forests", "semi-evergreen forests", "dry evergreen forests"],
-      answer: "dry evergreen forests",
+      answer: "semi-evergreen forests",
     },
   ],
   };
