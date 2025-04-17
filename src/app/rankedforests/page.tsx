@@ -201,12 +201,12 @@ const QuizApp: React.FC = () => {
           <Button
             variant="secondary"
             onClick={() => {
-              const text = `🏆 ${name} scored ${score}/${shuffledQuestions.length} (${percentage.toFixed(1)}%) in the "Forests and Their Management" quiz! Try it yourself at https://nptel-vit.vercel.app/forests/all-weeks`;
+              const text = `🏆 ${name} scored ${score}/${shuffledQuestions.length} (${percentage.toFixed(1)}%) in the "Forests and Their Management" quiz! Try it yourself at https://nptel-vit.vercel.app/ranked;
               if (navigator.share) {
                 navigator.share({
                   title: "My Quiz Result",
                   text,
-                  url: "https://nptel-vit.vercel.app/forests/all-weeks",
+                  url: "https://nptel-vit.vercel.app/ranked",
                 });
               } else {
                 navigator.clipboard.writeText(text);
@@ -229,8 +229,8 @@ const QuizApp: React.FC = () => {
   );
   if (!started) {
     return (
-      <div className="flex justify-center items-center min-h-screen w-screen bg-white">
-  <Card className="w-full max-w-md shadow-lg p-6 space-y-4 flex flex-col items-center">
+      <div className="flex flex-col items-start min-h-screen p-6">
+        <Card className="w-full max-w-md shadow-md p-6 space-y-4 mt-4">
           <CardTitle className="text-center">Enter Your Name to Start</CardTitle>
           <input
             type="text"
