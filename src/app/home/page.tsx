@@ -52,7 +52,14 @@ const dashboardInfo = {
   
   nptelUpdates: [
     {
-  id: 1,
+      id: 1,
+      title: "Hall tickets has been released ‼️‼️‼️",
+      summary: "Access your hall tickets at the website at https://internalapp.nptel.ac.in/B2C/ or click the link below.",
+      date: "2025-04-017",
+      link: "https://internalapp.nptel.ac.in/B2C/",
+    },
+    {
+  id: 2,
   title: "Exam Centre Details & Timings Released",
   summary: "Login to internalapp.nptel.ac.in with your registered email and password as DOB (YYYY-MM-DD) to view April 2025 exam city and centre. Hall tickets are released",
   date: "2025-04-11",
@@ -60,20 +67,12 @@ const dashboardInfo = {
 },
       
     {
-  id: 2,
+  id: 3,
   title: "Exam Slot Timings & Centre (VITC students)",
   summary: "Exam slots: Morning 7–10am, Afternoon 11–2pm, Evening 3–6pm, Late Evening 7–10pm. Candidates who selected Chennai will have their centre at VIT Chennai.",
   date: "2025-04-11",
   link: "https://internalapp.nptel.ac.in"
 },
-
-    {
-      id: 3,
-      title: "NPTEL's LAST Quiz Deadline",
-      summary: "All NPTEL quizzes will close on April 16th. Make sure to complete them in time. Check your email for more.",
-      date: "2025-04-09",
-      link: "https://mail.google.com",
-    },
   ],
   
 };
