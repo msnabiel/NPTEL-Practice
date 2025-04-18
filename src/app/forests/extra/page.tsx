@@ -67,7 +67,7 @@ export default function ExtraForestryCheatSheet() {
     },
     {
       question: "13. Who introduced the group shelterwood system?",
-      answer: "Hans Carl von Carlowitz."
+      answer: "karl gayer"
     },
     {
       question: "14. In even-aged stands, how much can tree ages vary?",
