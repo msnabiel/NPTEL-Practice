@@ -10,7 +10,7 @@ import {
   BreadcrumbPage,
   BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb";
-
+import { ContentLayout } from "@/components/admin-panel/content-layout";
 export default function ExtraForestryCheatSheet() {
   const questionsAndAnswers = [
     {
@@ -74,13 +74,10 @@ export default function ExtraForestryCheatSheet() {
       answer: "Not more than 20 years."
     }
   ];
-
   return (
-    <div className="max-w-5xl mx-auto px-4 py-10 space-y-8">
-      <div className="space-y-2">
-        <h1 className="text-4xl font-bold tracking-tight">Forestry Cheat Sheet – Extra Q&A</h1>
-
-        {/* Breadcrumb Navigation */}
+    <ContentLayout title="Forests and Their Managements - Extra Q&A">
+      <div className="space-y-6">
+        {/* Breadcrumb */}
         <Breadcrumb>
           <BreadcrumbList>
             <BreadcrumbItem>
@@ -100,10 +97,8 @@ export default function ExtraForestryCheatSheet() {
             </BreadcrumbItem>
           </BreadcrumbList>
         </Breadcrumb>
-      </div>
-
-      {/* Question Cards */}
-      <div className="space-y-6">
+  
+        {/* Question Cards */}
         {questionsAndAnswers.map((item, index) => (
           <Card key={index}>
             <CardHeader>
@@ -117,6 +112,5 @@ export default function ExtraForestryCheatSheet() {
           </Card>
         ))}
       </div>
-    </div>
-  );
-}
+    </ContentLayout>
+  )};
