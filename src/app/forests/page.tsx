@@ -40,6 +40,17 @@ export default function ForestsPage() {
             </Card>
           </Link>
         </motion.div>
+        <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.98 }}>
+          <Link href={`/forests/extra`}>
+            <Card className="cursor-pointer transition-shadow h-24 flex flex-col justify-center items-center border-2 border-dashed border-emerald-400 bg-gradient-to-br from-emerald-800 via-emerald-700 to-emerald-600 text-white rounded-2xl hover:shadow-md hover:shadow-emerald-400/20">
+              <CardContent className="p-2 flex justify-center items-center h-full">
+                <CardTitle className="text-center text-sm sm:text-base font-bold uppercase tracking-wide">
+                  Extra Questions
+                </CardTitle>
+              </CardContent>
+            </Card>
+          </Link>
+        </motion.div>
       </div>
       <Analytics />
     </ContentLayout>
