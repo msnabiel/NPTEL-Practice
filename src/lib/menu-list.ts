@@ -58,7 +58,7 @@ export function getMenuList(pathname: string): Group[] {
         },
         {
           href: "/scienceofhappiness",
-          label: "Science of Happiness and Wellbeing",
+          label: "Science of Happiness",
           icon: FileText,
         },
         {
