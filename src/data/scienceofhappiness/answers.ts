@@ -1030,7 +1030,7 @@ type Question = {
             "iv. All of these are true"
           ],
           "answer": "iii. Only a, b and d are true"
-        }
+        },
         
         {
           "question": "While assessing a person’s emotions from the face using a thermal camera, which of the following biological attributes is measured as the parameter?",
@@ -1041,7 +1041,7 @@ type Question = {
             "iv. Jaw line movement"
           ],
           "answer": "ii. Vascularity around the face"
-        }
+        },
         
         {
           "question": "The following self-report techniques are used to examine the state of happiness in subjects. Indicate the ones that are termed as projective techniques?",
@@ -1052,7 +1052,7 @@ type Question = {
             "iv. All of these are true"
           ],
           "answer": "i. Only a, c and d are true"
-        }
+        },
         
         {
           "question": "“The true essence of advertising is to make customers want more. It is designed to make them restless, leaving little room for contentment”. This definition was proposed by ____________? (Fill in the blank)",
@@ -1063,7 +1063,7 @@ type Question = {
             "iv. Omaid Hiwaizi"
           ],
           "answer": "iv. Omaid Hiwaizi"
-        }
+        },
         
         {
           "question": "Some of the following aspects are harmful contributions of advertisements on our everyday lives. Which of them are true?",
@@ -1074,7 +1074,7 @@ type Question = {
             "iv. All of these are true"
           ],
           "answer": "i. Only a, b and d are true"
-        }
+        },
         
         {
           "question": "An advertisement features a group of people stranded in a rural village after a massive landslide caused by torrential rain. One of them is severely injured and needs emergency medical attention. In a place like this there is no well-developed hospital and the road connectivity is almost cut off. After a brief struggle, just before passing away, the man takes out a plastic wrapped document from under his shirt and hands it over to his crying wife beside him. The next scene jumps to one month after this incident, where it is shown that the wife is rebuilding their home out of scratch and remembering the last moments with her husband, and the piece of document which he gave her turned out to be his life insurance policy. Finally, the ad ends with the note that after his demise, how the said life insurance company acted promptly to give her the money and stood beside her during her misery. This is an example of a ___________. (Fill in the blank)",
@@ -1085,7 +1085,7 @@ type Question = {
             "iv. Negative ad giving a positive message"
           ],
           "answer": "iv. Negative ad giving a positive message"
-        }
+        },
         
         {
           "question": "Which of the following technologies were evolved during World War II?",
@@ -1096,7 +1096,7 @@ type Question = {
             "iv. All of these are true"
           ],
           "answer": "ii. Only a, b and d are true"
-        }
+        },
         
         {
           "question": "Sarah had always dreamed of owning a sleek, red automatic convertible. Coming to know this, Sarah’s boss, being extremely impressed by her dedicated and hard-working nature, gifts Sarah her dream car. The first few weeks were exhilarating. The wind in her hair, the envious glances, the pure joy of driving her prized possession were intoxicating. However, as the novelty wore off, so did the thrill. The initial excitement gradually transformed into a sense of normalcy. The once extraordinary car became just another mode of transportation for her. The mandatory long drives during every weekend and the thrill of the open road was gradually replaced by the monotony of daily commutes. After one and a half years she even started thinking about buying a new mountain bike for more adventure trips. What's the most likely explanation of Sarah’s thought process?",
@@ -1107,7 +1107,7 @@ type Question = {
             "iv. Sarah has unrealistic expectations from her boss"
           ],
           "answer": "iii. Sarah is showing the symptoms of set point effect"
-        }
+        },
         
         {
           "question": "Which of the following factors are driving technologies in a particular direction?",
@@ -1118,7 +1118,7 @@ type Question = {
             "iv. All of these are true"
           ],
           "answer": "ii. Only b, c and d are true"
-        }
+        },
         
         {
           "question": "Research shows that automated speech analysis can be used effectively during interviews for positive trait assessment of the candidates. According to their findings, compared to low dominance, a highly dominant voice will have _________________. (Fill in the blank)",
@@ -1129,7 +1129,7 @@ type Question = {
             "iv. Lower number of pauses and higher average duration of pauses"
           ],
           "answer": "iii. Higher number of pauses and lower average duration of pauses"
-        }
+        },
         
         {
           "question": "Pinaki, a visual artist himself, tried to understand through scientific research if artists can predict where the viewers will look primarily while viewing their paintings. Using various measurement tools and techniques, he studied how the artists generally use certain visual strategies and anticipate that the viewers’ gazing behaviour will follow a certain pathway while looking at those paintings. Which of the following methods/tools he can use in this research?",
@@ -1140,7 +1140,7 @@ type Question = {
             "iv. All of these can be used"
           ],
           "answer": "i. Only a, b and c can be used"
-        }
+        },
         
         {
           "question": "Suppose, you are conducting research where you wish to explore if (and how) a person’s emotion perception changes if they are already in a pre-induced happy or sad mood in comparison to a neutral state. Which of the following interventions can you use for mood induction in participants?",
@@ -1151,7 +1151,7 @@ type Question = {
             "iv. All of these can be used"
           ],
           "answer": "iv. All of these can be used"
-        }
+        },
         
         {
           "question": "Social innovations are open source in nature. Is this statement true?",
@@ -1160,7 +1160,7 @@ type Question = {
             "ii. False"
           ],
           "answer": "i. True"
-        }
+        },
         
         {
           "question": "Some of the following are examples of social innovation initiatives across the globe. Which of them are true?",
@@ -1171,7 +1171,7 @@ type Question = {
             "iv. All of these are true"
           ],
           "answer": "ii. Only a, c and d are true"
-        }
+        },
         
         {
           "question": "Mobile banking and financial services have changed the lives of the common people for the better, particularly in India where mobile money transfers have been embraced by millions of users who previously did not have access to banking services. This has enabled them to save money, make payments and receive remittances with ease, empowering them in ways that were not possible before. This is ___________. (Fill in the blank)",
