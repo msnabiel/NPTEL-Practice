@@ -24,7 +24,7 @@ import { Button } from "@/components/ui/button";
 import { CheckCircle2, XCircle } from "lucide-react";
 import clsx from "clsx";
 
-import { questionsByWeek } from "@/data/forests/answers";
+import { questionsByWeek } from "@/data/scienceofhappiness/answers";
 
 type Question = {
   question: string;
@@ -316,7 +316,7 @@ const QuizApp: React.FC = () => {
 
 export default function AllWeeksPage() {
   return (
-    <ContentLayout title="Forests and Their Management">
+    <ContentLayout title="Science of Happiness and Wellbeing - All Weeks">
       <Breadcrumb>
         <BreadcrumbList>
           <BreadcrumbItem>
@@ -327,7 +327,7 @@ export default function AllWeeksPage() {
           <BreadcrumbSeparator />
           <BreadcrumbItem>
             <BreadcrumbLink asChild>
-              <Link href="/forests">Forests and Their Management</Link>
+              <Link href="/scienceofhappiness">Science of Happiness and Wellbeing</Link>
             </BreadcrumbLink>
           </BreadcrumbItem>
           <BreadcrumbSeparator />
