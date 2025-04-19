@@ -18,7 +18,8 @@ export default function ForestsPage() {
             whileTap={{ scale: 0.98 }}
           >
             <Link href={`/scienceofhappiness/week${index + 1}`}>
-              <Card className="cursor-pointer transition-shadow h-24 flex flex-col justify-center items-center rounded-2xl bg-gradient-to-br from-emerald-900 via-emerald-800 to-emerald-700 text-white hover:shadow-md hover:shadow-emerald-500/30">
+              <Card className="cursor-pointer transition-shadow h-24 flex flex-col justify-center items-center rounded-2xl bg-gradient-to-br from-yellow-400 via-orange-400 to-pink-400
+hover:shadow-pink-300/30">
                 <CardContent className="p-2 flex justify-center items-center h-full">
                   <CardTitle className="text-center text-sm sm:text-base font-semibold">
                     {week}
@@ -31,7 +32,8 @@ export default function ForestsPage() {
 
         <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.98 }}>
           <Link href={`/scienceofhappiness/all`}>
-            <Card className="cursor-pointer transition-shadow h-24 flex flex-col justify-center items-center border-2 border-dashed border-emerald-400 bg-gradient-to-br from-emerald-800 via-emerald-700 to-emerald-600 text-white rounded-2xl hover:shadow-md hover:shadow-emerald-400/20">
+            <Card className="cursor-pointer transition-shadow h-24 flex flex-col justify-center items-center border-2 border-dashed border-emerald-400 bg-gradient-to-br from-yellow-400 via-orange-400 to-pink-400
+hover:shadow-pink-300/30">
               <CardContent className="p-2 flex justify-center items-center h-full">
                 <CardTitle className="text-center text-sm sm:text-base font-bold uppercase tracking-wide">
                   All Weeks
