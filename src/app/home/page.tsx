@@ -175,6 +175,14 @@ export default function AboutPage() {
               features: ["Population Ecology", "Habitat Analysis", "Species Management"],
               url: "/wildlife",
             },
+            {
+              id: 4,
+              name: "Science of Happiness and Wellbeing",
+              description: "Explore the science behind happiness and well-being.",
+              image: "/happiness.png",
+              features: ["Positive Psychology", "Mindfulness", "Emotional Intelligence"],
+              url: "/scienceofhappiness",
+            },
           ].map((quiz) => (
             <Link key={quiz.id} href={quiz.url} passHref>
               <Card className="overflow-hidden cursor-pointer hover:shadow-lg transition-all">
