@@ -203,41 +203,47 @@ const formatTime = (timeInSeconds: number) => {
 </div>
 
 
-            {filteredEntries.length > 0 ? (
-              <Table className="border-collapse w-full">
-                <TableHeader>
-                  <TableRow>
-                    <TableHead className="text-left text-xl">Rank</TableHead>
-                    <TableHead className="text-left text-xl">Name</TableHead>
-                    <TableHead className="text-left text-xl">Course</TableHead>
-                    <TableHead className="text-left text-xl">Score</TableHead>
-                    <TableHead className="text-left text-xl">Time</TableHead>
-                    <TableHead className="text-left text-xl">Timestamp</TableHead>
-                  </TableRow>
-                </TableHeader>
-                <TableBody>
-                  {filteredEntries.map((entry) => {
-  const originalRank = entries.findIndex((e) => e.id === entry.id) + 1;
-  return (
-    <TableRow key={entry.id}>
-      <TableCell>{originalRank}</TableCell>
-      <TableCell>{entry.name}</TableCell>
-      <TableCell>{entry.course}</TableCell>
-      <TableCell>{entry.score}</TableCell>
-      <TableCell>{formatTime(entry.time)}</TableCell>
-      <TableCell>
-        {format(new Date(entry.timestamp), "MMMM dd, yyyy 'at' hh:mm a")}
-      </TableCell>
-    </TableRow>
-  );
-})}
-                </TableBody>
-              </Table>
-            ) : (
-              <p className="text-center text-lg text-gray-600 dark:text-gray-300">
-                No leaderboard entries for the selected course!
-              </p>
-            )}
+{filteredEntries.length > 0 ? (
+  <div className="w-full overflow-x-auto">
+    <Table className="w-full">
+      <TableHeader>
+        <TableRow className="text-xs sm:text-sm md:text-base">
+          <TableHead className="whitespace-nowrap">Rank</TableHead>
+          <TableHead className="whitespace-nowrap">Name</TableHead>
+          <TableHead className="whitespace-nowrap">Course</TableHead>
+          <TableHead className="whitespace-nowrap">Score</TableHead>
+          <TableHead className="whitespace-nowrap">Time</TableHead>
+          <TableHead className="whitespace-nowrap">Timestamp</TableHead>
+        </TableRow>
+      </TableHeader>
+      <TableBody>
+        {filteredEntries.map((entry) => {
+          const originalRank = entries.findIndex((e) => e.id === entry.id) + 1;
+          return (
+            <TableRow
+              key={entry.id}
+              className="text-sm sm:text-base whitespace-nowrap"
+            >
+              <TableCell>{originalRank}</TableCell>
+              <TableCell className="max-w-[100px] truncate">{entry.name}</TableCell>
+              <TableCell className="max-w-[120px] truncate">{entry.course}</TableCell>
+              <TableCell>{entry.score}</TableCell>
+              <TableCell>{formatTime(entry.time)}</TableCell>
+              <TableCell className="max-w-[140px] truncate">
+                {format(new Date(entry.timestamp), "MMM dd, yyyy hh:mm a")}
+              </TableCell>
+            </TableRow>
+          );
+        })}
+      </TableBody>
+    </Table>
+  </div>
+) : (
+  <p className="text-center text-lg text-gray-600 dark:text-gray-300">
+    No leaderboard entries for the selected course!
+  </p>
+)}
+
           </CardContent>
         </Card>
       </div>
