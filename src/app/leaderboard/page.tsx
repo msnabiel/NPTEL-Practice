@@ -152,7 +152,7 @@ const formatTime = (timeInSeconds: number) => {
         </BreadcrumbList>
       </Breadcrumb>
 
-      <div className="max-w-5xl mx-auto px-4 py-8">
+      <div className="w-full px-2 sm:px-4 py-6">
         <Card className="shadow-xl rounded-2xl border border-gray-300 dark:border-gray-700">
           <CardContent className="p-6 space-y-6">
             <div className="flex justify-between items-center">
