@@ -558,159 +558,159 @@ week3: [
       "answer": "Only a, c and d are true"
     }
   ],
-  week5:[
+  week5 :[
     {
-      question: "Which among the following are some reasons for which we fail to communicate happiness?",
-      options: [
+      "question": "Which among the following are some reasons for which we fail to communicate happiness?\n\na. We fail to listen to others\nb. We make incorrect assumptions\nc. We fail to express nonverbally\nd. We fail to perceive ourselves",
+      "options": [
         "Only a, c and d are true",
         "Only a, b and d are true",
         "Only a, b and c are true",
         "All of these are true"
       ],
-      answer: "Only a, b and c are true",
+      "answer": "Only a, b and c are true"
     },
     {
-      question: "According to Albert Mehrabian’s theory of non-verbal communication (1972), what percentage of the communication is carried through non-verbal components?",
-      options: [
+      "question": "According to Albert Mehrabian’s theory of non-verbal communication (1972), what percentage of the communication is carried through non-verbal components?",
+      "options": [
         "93 percent",
         "55 percent",
         "7 percent",
         "38 percent"
       ],
-      answer: "93 percent",
+      "answer": "93 percent"
     },
     {
-      question: "Which of the following are some channels of non-verbal behavior, through which we communicate and express ourselves knowingly or unknowingly?",
-      options: [
+      "question": "Which of the following are some channels of non-verbal behavior, through which we communicate and express ourselves knowingly or unknowingly?\n\na. Gazing behavior\nb. Interpersonal space or proxemics\nc. Facial expression of emotions\nd. Gestures or kinesics",
+      "options": [
         "Only a, b and c are true",
         "Only a, c and d are true",
         "Only b, c and d are true",
         "All of these are true"
       ],
-      answer: "All of these are true",
+      "answer": "All of these are true"
     },
     {
-      question: "Which among the following is NOT an impediment for resilience?",
-      options: [
+      "question": "Which among the following is NOT an impediment for resilience?\n\ni. The tendency to always stay in comfort zone\nii. The ability of self-regulation\niii. Having an external locus of control for adverse situations\niv. Not considering multiple possibilities at any situation",
+      "options": [
         "The tendency to always stay in comfort zone",
         "The ability of self-regulation",
         "Having an external locus of control for adverse situations",
         "Not considering multiple possibilities at any situation"
       ],
-      answer: "The ability of self-regulation",
+      "answer": "The ability of self-regulation"
     },
     {
-      question: "According to the 'post-traumatic growth' model, many individuals who experience adversity commonly report some of the following behavioral changes in life. Which of these are true?",
-      options: [
+      "question": "According to the 'post-traumatic growth' model, many individuals who experience adversity commonly report some of the following behavioral changes in life. Which of these are true?\n\na. Decreased empathy and compassion for others\nb. Finding deeper meaning and purpose in life\nc. Increased appreciation for personal strengths",
+      "options": [
         "Only a and b are true",
         "Only b and c are true",
         "Only a and c are true",
         "All of these are true"
       ],
-      answer: "Only b and c are true",
+      "answer": "Only b and c are true"
     },
     {
-      question: "Coming from a country with very little snow, Australia’s Alisa Camplin didn't even take up skiing until she was 20 years old, in 1994. Eight years later, when she was competing in the 2002 Winter Olympic Games, she was feeling severe pain in both of her ankles. After an X-ray of her feet the doctors were stunned to see that what she thought was bad bruising to her ankles actually turned out to be two fractures. The doctors advised her not to compete as she was not fit enough for a high-performance sport like skiing. But, she went on to consult a psychologist and following her advice, Camplin competed and made her way to the top of the podium as the Olympic champion. In fact, during her career Camplin dealt with two broken ankles, two knee reconstructions, nine cracked ribs, and a number of concussions, and finally lost her first child to congenital heart disease. But, later she also became World champion and till date, continues to coach the Australian Skiing Team. This is a classic example of _____________.",
-      options: [
+      "question": "Coming from a country with very little snow, Australia’s Alisa Camplin didn't even take up skiing until she was 20 years old, in 1994. Eight years later, when she was competing in the 2002 Winter Olympic Games, she was feeling severe pain in both of her ankles. After an X-ray of her feet the doctors were stunned to see that what she thought was bad bruising to her ankles actually turned out to be two fractures. The doctors advised her not to compete as she was not fit enough for a high-performance sport like skiing. But, she went on to consult a psychologist and following her advice, Camplin competed and made her way to the top of the podium as the Olympic champion. In fact, during her career Camplin dealt with two broken ankles, two knee reconstructions, nine cracked ribs, and a number of concussions, and finally lost her first child to congenital heart disease. But, later she also became World champion and till date, continues to coach the Australian Skiing Team. This is a classic example of _____________.",
+      "options": [
         "An irresponsible behaviour",
         "A recoiling behaviour",
         "A resilient behaviour",
         "An over-reactive behaviour"
       ],
-      answer: "A resilient behaviour",
+      "answer": "A resilient behaviour"
     },
     {
-      question: "Innovation indexes for countries are measured by _____________.",
-      options: [
+      "question": "Innovation indexes for countries are measured by _____________.",
+      "options": [
         "World Information Prosperity Organization",
         "World Innovation Index Organization",
         "World Innovation Property Organization",
         "World Intellectual Property Organization"
       ],
-      answer: "World Intellectual Property Organization",
+      "answer": "World Intellectual Property Organization"
     },
     {
-      question: "Which of the following statements are correct in the context of structured innovation?",
-      options: [
+      "question": "Which of the following statements are correct in the context of structured innovation?\n\na. It comes out of an expert knowledge system where competent people use relevant technologies to innovate something\nb. Controlled access to knowledge & high-quality net-worked infra-structure\nc. This type of innovation does not originate from a socially recognized need\nd. It needs the support of a favourable economics and risk capital",
+      "options": [
         "Only a, b and c are correct",
         "Only a, b and d are correct",
         "Only b, c and d are correct",
         "Only a, c and d are correct"
       ],
-      answer: "Only a, b and d are correct",
+      "answer": "Only a, b and d are correct"
     },
     {
-      question: "Double decker living root bridges are one of the most famous tourist attractions in Meghalaya, where people used the living roots of rubber trees to build those bridges over streams and canals. These bridges not only allow pedestrians to cross the streams, they can also carry the loads of light vehicles like bi-cycles or motorbikes. Which of the following factors are true in the context of innovation of those bridges?",
-      options: [
+      "question": "Double decker living root bridges are one of the most famous tourist attractions in Meghalaya, where people used the living roots of rubber trees to build those bridges over streams and canals. These bridges not only allow pedestrians to cross the streams, they can also carry the loads of light vehicles like bi-cycles or motorbikes. Which of the following factors are true in the context of innovation of those bridges?\n\na. Indigenous\nb. Deductive\nc. Inexpensive\nd. Iterative",
+      "options": [
         "Only a and c are true",
         "Only a, b and d are true",
         "Only a, c and d are true",
         "All of these are true"
       ],
-      answer: "Only a, c and d are true",
+      "answer": "Only a, c and d are true"
     },
     {
-      question: "The concept of 'cognitive appraisal' emphasises the role of __________.",
-      options: [
+      "question": "The concept of 'cognitive appraisal' emphasises the role of __________.",
+      "options": [
         "Genetics in determining individual stress responses",
         "External stressors directly causing physiological reactions",
         "Personal interpretations and beliefs in influencing stress impact",
         "Automatic and unconscious stress responses regardless of context"
       ],
-      answer: "Personal interpretations and beliefs in influencing stress impact",
+      "answer": "Personal interpretations and beliefs in influencing stress impact"
     },
     {
-      question: "Which among the following are common markers of chronic stress in everyday life?",
-      options: [
+      "question": "Which among the following are common markers of chronic stress in everyday life?\n\na. Overreacting to small problems\nb. Inability to concentrate\nc. Easily getting hurt\nd. Always worrying about something",
+      "options": [
         "Only a, b and c are true",
         "Only b, c and d are true",
         "Only a, c and d are true",
         "All of these are true"
       ],
-      answer: "All of these are true",
+      "answer": "All of these are true"
     },
     {
-      question: "Conflict between an individual's logical and emotional judgments is called _____________.",
-      options: [
+      "question": "Conflict between an individual's logical and emotional judgments is called _____________.",
+      "options": [
         "Decidophobia",
         "Necrophobia",
         "Emetophobia",
         "Aerophobia"
       ],
-      answer: "Decidophobia",
+      "answer": "Decidophobia"
     },
     {
-      question: "A person suffering from greater than normal stress is likely to show greater tolerance towards uncertainty and ambiguity than others. Is this statement true?",
-      options: [
+      "question": "A person suffering from greater than normal stress is likely to show greater tolerance towards uncertainty and ambiguity than others. Is this statement true?",
+      "options": [
         "True",
         "False"
       ],
-      answer: "False",
+      "answer": "False"
     },
     {
-      question: "As part of various coping strategies under stress, which of the following factors one must try to unlearn?",
-      options: [
+      "question": "As part of various coping strategies under stress, which of the following factors one must try to unlearn?\n\na. The desire to have control over everything\nb. Overestimation of threat potential\nc. Underestimating the process while focusing on the goal\nd. Fear of loss of identity while changing habits",
+      "options": [
         "Only a, b and c are true",
         "Only b, c and d are true",
         "Only a, c and d are true",
         "All of these are true"
       ],
-      answer: "All of these are true",
+      "answer": "All of these are true"
     },
     {
-      question: "Some of the following coping strategies have been found to be extremely effective for managing daily stress. Which of them are true?",
-      options: [
+      "question": "Some of the following coping strategies have been found to be extremely effective for managing daily stress. Which of them are true?\n\na. Engaging in regular physical activity (e.g., exercise, yoga)\nb. Practising mindfulness and relaxation techniques (e.g., meditation, deep breathing)\nc. Seeking social support and connecting with loved ones\nd. Establishing small, realistic goals and not taking big decisions\ne. Self-medication with various substances like alcohol or drugs",
+      "options": [
         "Only a, b, c and d are true",
         "Only a, b and c are true",
         "Only a, b, d and e are true",
         "All of these are true"
       ],
-      answer: "Only a, b and c are true",
+      "answer": "Only a, b and c are true"
     }
   ],
   week6:[
     {
-      "question": "“New age poor” is a coinage we have heard frequently during COVID 19 pandemic. This particular type of lifestyle change signifies ___________.",
+      "question": "\"New age poor\" is a coinage we have heard frequently during COVID 19 pandemic. This particular type of lifestyle change signifies ___________.",
       "options": [
         "The lack of freedom due to restriction of movements",
         "The lack of ways of spending money although having enough money",
@@ -720,7 +720,7 @@ week3: [
       "answer": "The lack of ways of spending money although having enough money"
     },
     {
-      "question": "Which of the following are true in the context of changing behaviour and developing new habits?",
+      "question": "Which of the following are true in the context of changing behaviour and developing new habits?\n\na. Small, incremental improvements make habit stronger rather than drastic action\nb. New habits develop by pressure or coercion rather than by commitment\nc. Human behaviour does not change every day; we need to rewire the brain\nd. It takes 21 days to dissolve an old mental image",
       "options": [
         "Only a, b and c are true",
         "Only b, c and d are true",
@@ -730,7 +730,7 @@ week3: [
       "answer": "Only a, c and d are true"
     },
     {
-      "question": "Which of the following behavioural challenges were commonly observed during the COVID 19 pandemic?",
+      "question": "Which of the following behavioural challenges were commonly observed during the COVID 19 pandemic?\n\na. Social facilitation\nb. Belongingness barrier\nc. Proximity stress\nd. Compassion fatigue",
       "options": [
         "Only b, c and d are true",
         "Only a, c and d are true",
@@ -760,7 +760,7 @@ week3: [
       "answer": "Meditation with focus upon breathing, gazing and visualisation"
     },
     {
-      "question": "Which of the following statements are true in the context of meditation or yoga?",
+      "question": "Which of the following statements are true in the context of meditation or yoga?\n\na. Meditation essentially means mind-body integration\nb. Meditation can be done with a focus on either breath or image, words, sound\nc. Meditation emphasises on maintaining a non-judgmental awareness\nd. Meditation can be of both long and short duration",
       "options": [
         "Only a, b and c are true",
         "Only b, c and d are true",
@@ -848,7 +848,7 @@ week3: [
       "answer": "False"
     },
     {
-      "question": "A group of friends, planning a weekend getaway, decided to visit a hill station. While exploring the area, they came across an adventure park offering various thrilling activities. As they stood at the base of a steep mountain, looking up at the zip-lining platform, opinions began to diverge. Ravi, always cautious, expressed his concern, 'Zip-lining seems dangerous. What if the harness breaks? It’s too risky for me.' On the other hand, Priya, the adventurous one, was excited, 'Zip-lining is a once-in-a-lifetime opportunity! It's a chance to overcome our fears and experience the thrill.' Sam, the practical one, suggested, 'Let's consider the safety measures first. If the park has a good safety record, we can give it a try.' Finally, Ria, the peacemaker, proposed, 'Maybe we can try something less risky together, like trekking or rock climbing. We can enjoy the outdoors without taking unnecessary risks.' Following the above passage match the people on the right-hand side with their thinking styles on the left-hand side.",
+      "question": "A group of friends, planning a weekend getaway, decided to visit a hill station. While exploring the area, they came across an adventure park offering various thrilling activities. As they stood at the base of a steep mountain, looking up at the zip-lining platform, opinions began to diverge. Ravi, always cautious, expressed his concern, \"Zip-lining seems dangerous. What if the harness breaks? It’s too risky for me.\" On the other hand, Priya, the adventurous one, was excited, \"Zip-lining is a once-in-a-lifetime opportunity! It's a chance to overcome our fears and experience the thrill.\" Sam, the practical one, suggested, \"Let's consider the safety measures first. If the park has a good safety record, we can give it a try.\" Finally, Ria, the peacemaker, proposed, \"Maybe we can try something less risky together, like trekking or rock climbing. We can enjoy the outdoors without taking unnecessary risks.\"\n\nFollowing the above passage match the people on the right-hand side with their thinking styles on the left-hand side.\n\na. Ravi\nb. Priya\nc. Sam\nd. Ria\n\n1. Cautious thinking\n2. Peacemaker thinking\n3. Adventurous thinking\n4. Practical thinking",
       "options": [
         "a-1, b-4, c-3, d-2",
         "a-3, b-4, c-1, d-2",
@@ -858,321 +858,307 @@ week3: [
       "answer": "a-3, b-4, c-1, d-2"
     }
   ],
-  week7:
-    [
-      {
-        "question": "Which of the following best describes the primary function of 'self-regulation' in emotional intelligence?",
-        "options": [
-          "i. Recognising and understanding one's own emotions",
-          "ii. Managing and controlling impulsive emotions and behaviours",
-          "iii. Building and maintaining social networks",
-          "iv. Identifying and empathising with the emotions of others"
-        ],
-        "answer": "ii. Managing and controlling impulsive emotions and behaviours"
-      },
-      {
-        "question": "How does 'relationship management' within emotional intelligence contribute to leadership effectiveness?",
-        "options": [
-          "i. It focuses solely on the leader's ability to empathise with others",
-          "ii. It enhances the ability to communicate emotions nonverbally",
-          "iii. It involves the skill to inspire, influence, and develop others while managing conflict",
-          "iv. It solely requires the identification and analysis of group dynamics"
-        ],
-        "answer": "iii. It involves the skill to inspire, influence, and develop others while managing conflict"
-      },
-      {
-        "question": "What role does empathy play in emotional intelligence?",
-        "options": [
-          "i. It has no significant impact on emotional intelligence",
-          "ii. It helps individuals connect with others and understand their perspectives",
-          "iii. It leads to emotional detachment and apathy",
-          "iv. It fosters a self-centred and unsympathetic outlook"
-        ],
-        "answer": "ii. It helps individuals connect with others and understand their perspectives"
-      },
-      {
-        "question": "How can organisations best facilitate personal growth to enhance happiness at work?",
-        "options": [
-          "i. Implementing annual performance reviews",
-          "ii. Encouraging peer competition",
-          "iii. Providing continuous learning opportunities",
-          "iv. Offering flexible work hours"
-        ],
-        "answer": "iii. Providing continuous learning opportunities"
-      },
-      {
-        "question": "Some of the followings are misconceptions about attitude in a workplace. Which among these are true?",
-        "options": [
-          "i. Only a, b and c are true",
-          "ii. Only b, c and d are true",
-          "iii. Only a, b and d are true",
-          "iv. Only a, c and d are true"
-        ],
-        "answer": "iv. Only a, c and d are true"
-      },
-      {
-        "question": "Which of the following ways are very effective in enhancing happiness at the workplace?",
-        "options": [
-          "i. Only a, b and c are true",
-          "ii. Only b, c and d are true",
-          "iii. Only a, c and d are true",
-          "iv. All of these are true"
-        ],
-        "answer": "iv. All of these are true"
-      },
-      {
-        "question": "Small and insignificant details in nudge messages can change human behaviour due to which of the following reason(s)?",
-        "options": [
-          "i. Only a is true",
-          "ii. Only a and c are true",
-          "iii. Only b and c are true",
-          "iv. All of these are true"
-        ],
-        "answer": "i. Only a is true"
-      },
-      {
-        "question": "Choices, in nudge behaviour, are made using which of the following factors?",
-        "options": [
-          "i. Only a, b and c are true",
-          "ii. Only b, c and d are true",
-          "iii. Only a, c and d are true",
-          "iv. All of these are true"
-        ],
-        "answer": "i. Only a, b and c are true"
-      },
-      {
-        "question": "Match the following messages or actions on the left column with their respective persuasion message categories in the right column:",
-        "options": [
-          "i. a-2, b-1, c-3, d-4",
-          "ii. a-3, b-4, c-2, d-1",
-          "iii. a-3, b-1, c-4, d-2",
-          "iv. a-2, b-1, c-4, d-3"
-        ],
-        "answer": "ii. a-3, b-4, c-2, d-1"
-      },
-      {
-        "question": "Which of the following parameters are part of the World Happiness Index?",
-        "options": [
-          "i. Only a, b and d are true",
-          "ii. Only b, c and d are true",
-          "iii. Only a, d and e are true",
-          "iv. All of these are true"
-        ],
-        "answer": "iii. Only a, d and e are true"
-      },
-      {
-        "question": "Which of the following parameters are indicators of Psychological Wellbeing in the Gross National Happiness scale?",
-        "options": [
-          "i. Only a, b and d are true",
-          "ii. Only b, c and d are true",
-          "iii. Only a and c are true",
-          "iv. Only a, c and e are true"
-        ],
-        "answer": "iii. Only a and c are true"
-      },
-      {
-        "question": "An 11-point scale called Cantril Ladder is used in Happiness measurement. A marking on 10 in the Cantril Ladder indicates _________________. (Fill in the blank)",
-        "options": [
-          "i. Highest possible economic class",
-          "ii. Maximum possible stress",
-          "iii. Best possible life",
-          "iv. Highest possible freedom"
-        ],
-        "answer": "iii. Best possible life"
-      },
-      {
-        "question": "Some of the following habits are extremely relevant in the context of leadership. Which of them are true?",
-        "options": [
-          "i. Only a and d are true",
-          "ii. Only b and c are true",
-          "iii. Only a, c and d are true",
-          "iv. Only a, b and d are true"
-        ],
-        "answer": "iii. Only a, c and d are true"
-      },
-      {
-        "question": "Which of the following statement/s is/are true regarding leadership?",
-        "options": [
-          "i. Only a is true",
-          "ii. Only a and c are true",
-          "iii. Only a and b are true",
-          "iv. All of these are true"
-        ],
-        "answer": "iv. All of these are true"
-      },
-      {
-        "question": "Two school friends, Deepak and Nandini started working at two different companies after completing their masters’ degree and they decided to meet after a long time. During their reunion they were discussing their work experience under their bosses. Deepak works at a private bank. He told his friends that his manager is laser-focused on the performance of his employees, and establishes predetermined incentives usually in the form of monetary reward for success and disciplinary action for failure. He meets each member of the team bi-weekly to discuss ways the team can meet and exceed monthly company goals to get their bonus. Each of the top 10 performers in the district receives a monetary reward. On the other hand, Nandini, a graphic designer, shared that she is not very happy with her current work environment. Her boss is focused almost entirely on results and efficiency. He often makes decisions alone or with a small, trusted group and expects employees to do exactly what they’re asked to do, more like a military commander. Nandini feels that this kind of rigid environment can prove to be helpful for some undisciplined colleagues, whereas the rest of them are struggling with their creative tasks. Deepak’s case is an example of ________, whereas the leadership style of Nandini’s boss can be best described as ____________. (Fill in the blanks)",
-        "options": [
-          "i. Transformational leadership and Transactional leadership",
-          "ii. Transactional leadership and Authoritarian leadership",
-          "iii. Laissez Faire leadership and Transformational leadership",
-          "iv. Authoritarian Leadership and Laissez Faire leadership"
-        ],
-        "answer": "ii. Transactional leadership and Authoritarian leadership"
-      }
+  week7:[{
+    "question": "Two school friends, Deepak and Nandini started working at two different companies after completing their masters’ degree and they decided to meet after a long time. During their reunion they were discussing their work experience under their bosses. Deepak works at a private bank. He told his friends that his manager is laser-focused on the performance of his employees, and establishes predetermined incentives usually in the form of monetary reward for success and disciplinary action for failure. He meets each member of the team bi-weekly to discuss ways the team can meet and exceed monthly company goals to get their bonus. Each of the top 10 performers in the district receives a monetary reward. On the other hand, Nandini, a graphic designer, shared that she is not very happy with her current work environment. Her boss is focused almost entirely on results and efficiency. He often makes decisions alone or with a small, trusted group and expects employees to do exactly what they’re asked to do, more like a military commander. Nandini feels that this kind of rigid environment can prove to be helpful for some undisciplined colleagues, whereas the rest of them are struggling with their creative tasks. Deepak’s case is an example of ________, whereas the leadership style of Nandini’s boss can be best described as ____________. (Fill in the blanks)",
+    "options": [
+      "i. Transformational leadership and Transactional leadership",
+      "ii. Transactional leadership and Authoritarian leadership",
+      "iii. Laissez Faire leadership and Transformational leadership",
+      "iv. Authoritarian Leadership and Laissez Faire leadership"
     ],
+    "answer": "ii. Transactional leadership and Authoritarian leadership"
+  },
+    {
+      "question": "Which of the following best describes the primary function of 'self-regulation' in emotional intelligence?\n\na. Recognising and understanding one's own emotions\nb. Managing and controlling impulsive emotions and behaviours\nc. Building and maintaining social networks\nd. Identifying and empathising with the emotions of others",
+      "options": [
+        "Recognising and understanding one's own emotions",
+        "Managing and controlling impulsive emotions and behaviours",
+        "Building and maintaining social networks",
+        "Identifying and empathising with the emotions of others"
+      ],
+      "answer": "Managing and controlling impulsive emotions and behaviours"
+    },
+    {
+      "question": "How does 'relationship management' within emotional intelligence contribute to leadership effectiveness?\n\na. It focuses solely on the leader's ability to empathise with others\nb. It enhances the ability to communicate emotions nonverbally\nc. It involves the skill to inspire, influence, and develop others while managing conflict\nd. It solely requires the identification and analysis of group dynamics",
+      "options": [
+        "It focuses solely on the leader's ability to empathise with others",
+        "It enhances the ability to communicate emotions nonverbally",
+        "It involves the skill to inspire, influence, and develop others while managing conflict",
+        "It solely requires the identification and analysis of group dynamics"
+      ],
+      "answer": "It involves the skill to inspire, influence, and develop others while managing conflict"
+    },
+    {
+      "question": "What role does empathy play in emotional intelligence?\n\na. It has no significant impact on emotional intelligence\nb. It helps individuals connect with others and understand their perspectives\nc. It leads to emotional detachment and apathy\nd. It fosters a self-centred and unsympathetic outlook",
+      "options": [
+        "It has no significant impact on emotional intelligence",
+        "It helps individuals connect with others and understand their perspectives",
+        "It leads to emotional detachment and apathy",
+        "It fosters a self-centred and unsympathetic outlook"
+      ],
+      "answer": "It helps individuals connect with others and understand their perspectives"
+    },
+    {
+      "question": "How can organisations best facilitate personal growth to enhance happiness at work?\n\na. Implementing annual performance reviews\nb. Encouraging peer competition\nc. Providing continuous learning opportunities\nd. Offering flexible work hours",
+      "options": [
+        "Implementing annual performance reviews",
+        "Encouraging peer competition",
+        "Providing continuous learning opportunities",
+        "Offering flexible work hours"
+      ],
+      "answer": "Providing continuous learning opportunities"
+    },
+    {
+      "question": "Some of the followings are misconceptions about attitude in a workplace. Which among these are true?\n\na. Feeling is cardinal in attitude change\nb. Competence reduces negative attitude\nc. Moral people have difficulty in staying loyal all the time\nd. Loyal people have better attitude towards change",
+      "options": [
+        "Only a, b and c are true",
+        "Only b, c and d are true",
+        "Only a, b and d are true",
+        "Only a, c and d are true"
+      ],
+      "answer": "Only a, c and d are true"
+    },
+    {
+      "question": "Which of the following ways are very effective in enhancing happiness at the workplace?\n\na. Encouraging organisational citizenship\nb. Focusing on meaningful engagements\nc. Building up a trust-based transparency among the employees\nd. Internal brand building",
+      "options": [
+        "Only a, b and c are true",
+        "Only b, c and d are true",
+        "Only a, c and d are true",
+        "All of these are true"
+      ],
+      "answer": "All of these are true"
+    },
+    {
+      "question": "Small and insignificant details in nudge messages can change human behaviour due to which of the following reason(s)?\n\na. They shift the focus of attention to a given direction\nb. They comprise of hidden messages that can’t be cracked easily\nc. They order the people to take actions in a particular way",
+      "options": [
+        "Only a is true",
+        "Only a and c are true",
+        "Only b and c are true",
+        "All of these are true"
+      ],
+      "answer": "Only a is true"
+    },
+    {
+      "question": "Choices, in nudge behaviour, are made using which of the following factors?\n\na. Subconscious logic\nb. Covert knowledge\nc. Feeling and instinct\nd. Linear thought processes",
+      "options": [
+        "Only a, b and c are true",
+        "Only b, c and d are true",
+        "Only a, c and d are true",
+        "All of these are true"
+      ],
+      "answer": "Only a, b and c are true"
+    },
+    {
+      "question": "Match the following messages or actions on the left column with their respective persuasion message categories in the right column:\n\na. a-2\nb. b-1\nc. c-3\nd. d-4",
+      "options": [
+        "a-2, b-1, c-3, d-4",
+        "a-3, b-4, c-2, d-1",
+        "a-3, b-1, c-4, d-2",
+        "a-2, b-1, c-4, d-3"
+      ],
+      "answer": "a-3, b-4, c-2, d-1"
+    },
+    {
+      "question": "Which of the following parameters are part of the World Happiness Index?\n\na. Generosity\nb. Education\nc. Good governance\nd. Social support\ne. Healthy life expectancy",
+      "options": [
+        "Only a, b and d are true",
+        "Only b, c and d are true",
+        "Only a, d and e are true",
+        "All of these are true"
+      ],
+      "answer": "Only a, d and e are true"
+    },
+    {
+      "question": "Which of the following parameters are indicators of Psychological Wellbeing in the Gross National Happiness scale?\n\na. Spirituality\nb. Family\nc. Life satisfaction\nd. Safety\ne. Fundamental rights",
+      "options": [
+        "Only a, b and d are true",
+        "Only b, c and d are true",
+        "Only a and c are true",
+        "Only a, c and e are true"
+      ],
+      "answer": "Only a and c are true"
+    },
+    {
+      "question": "An 11-point scale called Cantril Ladder is used in Happiness measurement. A marking on 10 in the Cantril Ladder indicates _________________. (Fill in the blank)\n\na. Highest possible economic class\nb. Maximum possible stress\nc. Best possible life\nd. Highest possible freedom",
+      "options": [
+        "Highest possible economic class",
+        "Maximum possible stress",
+        "Best possible life",
+        "Highest possible freedom"
+      ],
+      "answer": "Best possible life"
+    },
+    {
+      "question": "Some of the following habits are extremely relevant in the context of leadership. Which of them are true?\n\na. Purpose for self and purpose for others\nb. Resisting constant changes\nc. Strive for perfection\nd. Ability to think in terms of creating a legacy beyond the self",
+      "options": [
+        "Only a and d are true",
+        "Only b and c are true",
+        "Only a, c and d are true",
+        "Only a, b and d are true"
+      ],
+      "answer": "Only a, c and d are true"
+    },
+    {
+      "question": "Which of the following statement/s is/are true regarding leadership?\n\na. Leadership is the action of leading a group of people or an organisation\nb. Leadership is the ability to influence others in order to achieve a goal\nc. Leadership is a continuous process of influencing behaviour",
+      "options": [
+        "Only a is true",
+        "Only a and c are true",
+        "Only a and b are true",
+        "All of these are true"
+      ],
+      "answer": "All of these are true"
+    }
+
+],
     week8:[
-      {
-        "question": "Subjective experience recording is a ‘first person’ methodology of happiness research. Which of the following statements are true in the context of subjective experience?",
-        "options": [
-          "i. Only b and d are true",
-          "ii. Only b, c and d are true",
-          "iii. Only a, b and d are true",
-          "iv. All of these are true"
-        ],
-        "answer": "iii. Only a, b and d are true"
-      },
+        {
+          "question": "Subjective experience recording is a ‘first person’ methodology of happiness research. Which of the following statements are true in the context of subjective experience?\n\na. It is exploratory\nb. It is experiential\nc. It is analytical\nd. It is qualitative",
+          "options": [
+            "Only b and d are true",
+            "Only b, c and d are true",
+            "Only a, b and d are true",
+            "All of these are true"
+          ],
+          "answer": "Only a, b and d are true"
+        },
+        {
+          "question": "While assessing a person’s emotions from the face using a thermal camera, which of the following biological attributes is measured as the parameter?\n\ni. Muscular movements around the face\nii. Vascularity around the face\niii. Pupil dilation\niv. Jaw line movement",
+          "options": [
+            "Only a, b and c are true",
+            "Only a, b and d are true",
+            "Only b, c and d are true",
+            "All of these are true"
+          ],
+          "answer": "Only a, b and d are true"
+        },
+        {
+          "question": "The following self-report techniques are used to examine the state of happiness in subjects. Indicate the ones that are termed as projective techniques?\n\na. Sentence completion\nb. Situation judgement test\nc. Picture sorting\nd. Thought listing",
+          "options": [
+            "Only a, c and d are true",
+            "Only a, b and c are true",
+            "Only b, c and d are true",
+            "All of these are true"
+          ],
+          "answer": "Only a, c and d are true"
+        },
+        {
+          "question": "“The true essence of advertising is to make customers want more. It is designed to make them restless, leaving little room for contentment”. This definition was proposed by ____________? (Fill in the blank)\n\ni. Mel Cruickshank\nii. Jonathan Trimble\niii. John Campbell\niv. Omaid Hiwaizi",
+          "options": [
+            "Mel Cruickshank",
+            "Jonathan Trimble",
+            "John Campbell",
+            "Omaid Hiwaizi"
+          ],
+          "answer": "Omaid Hiwaizi"
+        },
+        {
+          "question": "Some of the following aspects are harmful contributions of advertisements on our everyday lives. Which of them are true?\n\na. They make us buy more than we can afford\nb. They always make us compare ourselves with others\nc. They always make our lives richer in terms of material things\nd. They create desires when we have none",
+          "options": [
+            "Only a, b and d are true",
+            "Only a, c and d are true",
+            "Only a, b and c are true",
+            "All of these are true"
+          ],
+          "answer": "Only a, b and d are true"
+        },
+        {
+          "question": "An advertisement features a group of people stranded in a rural village after a massive landslide caused by torrential rain. One of them is severely injured and needs emergency medical attention. In a place like this there is no well-developed hospital and the road connectivity is almost cut off. After a brief struggle, just before passing away, the man takes out a plastic wrapped document from under his shirt and hands it over to his crying wife beside him. The next scene jumps to one month after this incident, where it is shown that the wife is rebuilding their home out of scratch and remembering the last moments with her husband, and the piece of document which he gave her turned out to be his life insurance policy. Finally, the ad ends with the note that after his demise, how the said life insurance company acted promptly to give her the money and stood beside her during her misery. This is an example of a ___________. (Fill in the blank)\n\ni. Positive ad giving a negative message\nii. Positive ad giving a positive message\niii. Negative ad giving a negative message\niv. Negative ad giving a positive message",
+          "options": [
+            "Positive ad giving a negative message",
+            "Positive ad giving a positive message",
+            "Negative ad giving a negative message",
+            "Negative ad giving a positive message"
+          ],
+          "answer": "Negative ad giving a positive message"
+        },
+        {
+          "question": "Which of the following technologies were evolved during World War II?\n\na. Blood transfusion\nb. Antibiotic treatment\nc. Supercomputers\nd. Radar technology",
+          "options": [
+            "Only a, b and c are true",
+            "Only a, b and d are true",
+            "Only b, c and d are true",
+            "All of these are true"
+          ],
+          "answer": "Only a, b and d are true"
+        },
+        {
+          "question": "Sarah had always dreamed of owning a sleek, red automatic convertible. Coming to know this, Sarah’s boss, being extremely impressed by her dedicated and hard-working nature, gifts Sarah her dream car. The first few weeks were exhilarating. The wind in her hair, the envious glances, the pure joy of driving her prized possession were intoxicating. However, as the novelty wore off, so did the thrill. The initial excitement gradually transformed into a sense of normalcy. The once extraordinary car became just another mode of transportation for her. The mandatory long drives during every weekend and the thrill of the open road was gradually replaced by the monotony of daily commutes. After one and a half years she even started thinking about buying a new mountain bike for more adventure trips. What's the most likely explanation of Sarah’s thought process?\n\ni. The new car is not technologically advanced enough to be driven on any road condition\nii. The increasing work pressure at office is taking a toll on Sarah’s mental health\niii. Sarah is showing the symptoms of set point effect\niv. Sarah has unrealistic expectations from her boss",
+          "options": [
+            "The new car is not technologically advanced enough to be driven on any road condition",
+            "The increasing work pressure at office is taking a toll on Sarah’s mental health",
+            "Sarah is showing the symptoms of set point effect",
+            "Sarah has unrealistic expectations from her boss"
+          ],
+          "answer": "Sarah is showing the symptoms of set point effect"
+        },
+        {
+          "question": "Which of the following factors are driving technologies in a particular direction?\n\na. Ability to take responsibilities\nb. Mental health apps and tools\nc. Power elements\nd. Ideologies",
+          "options": [
+            "Only a, b and c are true",
+            "Only b, c and d are true",
+            "Only a, b and d are true",
+            "All of these are true"
+          ],
+          "answer": "Only b, c and d are true"
+        },
+        {
+          "question": "Research shows that automated speech analysis can be used effectively during interviews for positive trait assessment of the candidates. According to their findings, compared to low dominance, a highly dominant voice will have _________________. (Fill in the blank)\n\ni. Lower number of pauses and lower average duration of pauses\nii. Higher number of pauses and higher average duration of pauses\niii. Higher number of pauses and lower average duration of pauses\niv. Lower number of pauses and higher average duration of pauses",
+          "options": [
+            "Lower number of pauses and lower average duration of pauses",
+            "Higher number of pauses and higher average duration of pauses",
+            "Higher number of pauses and lower average duration of pauses",
+            "Lower number of pauses and higher average duration of pauses"
+          ],
+          "answer": "Higher number of pauses and lower average duration of pauses"
+        },
+        {
+          "question": "Pinaki, a visual artist himself, tried to understand through scientific research if artists can predict where the viewers will look primarily while viewing their paintings. Using various measurement tools and techniques, he studied how the artists generally use certain visual strategies and anticipate that the viewers’ gazing behaviour will follow a certain pathway while looking at those paintings. Which of the following methods/tools he can use in this research?\n\na. Self-report surveys\nb. Eye tracking\nc. Computational method for image analysis\nd. Electrodermal activity through GSR",
+          "options": [
+            "Only a, b and c can be used",
+            "Only b, c and d can be used",
+            "Only a, c and d can be used",
+            "All of these can be used"
+          ],
+          "answer": "Only a, b and c can be used"
+        },
+        {
+          "question": "Suppose, you are conducting research where you wish to explore if (and how) a person’s emotion perception changes if they are already in a pre-induced happy or sad mood in comparison to a neutral state. Which of the following interventions can you use for mood induction in participants?\n\na. Music\nb. News\nc. Movies\nd. Virtual reality",
+          "options": [
+            "Only a and c can be used",
+            "Only a, b and c can be used",
+            "Only a, c and d can be used",
+            "All of these can be used"
+          ],
+          "answer": "All of these can be used"
+        },
+        {
+          "question": "Social innovations are open source in nature. Is this statement true?\n\ni. True\nii. False",
+          "options": [
+            "True",
+            "False"
+          ],
+          "answer": "True"
+        },
+        {
+          "question": "Some of the following are examples of social innovation initiatives across the globe. Which of them are true?\n\na. Braille printing for visually impaired individuals\nb. Self-driving cars\nc. Solar-powered lamps for remote communities\nd. Water purification tablets",
+          "options": [
+            "Only a, b and c are true",
+            "Only a, c and d are true",
+            "Only b, c and d are true",
+            "All of these are true"
+          ],
+          "answer": "Only a, c and d are true"
+        },
+        {
+          "question": "Mobile banking and financial services have changed the lives of the common people for the better, particularly in India where mobile money transfers have been embraced by millions of users who previously did not have access to banking services. This has enabled them to save money, make payments and receive remittances with ease, empowering them in ways that were not possible before. This is ___________. (Fill in the blank)\n\ni. A social innovation in healthcare\nii. A social innovation in business management\niii. A social innovation in community development\niv. A social innovation in education",
+          "options": [
+            "A social innovation in healthcare",
+            "A social innovation in business management",
+            "A social innovation in community development",
+            "A social innovation in education"
+          ],
+          "answer": "A social innovation in community development"
+        }
 
-      {
-        "question": "While assessing a person’s emotions from the face using a thermal camera, which of the following biological attributes is measured as the parameter?",
-        "options": [
-          "i. Muscular movements around the face",
-          "ii. Vascularity around the face",
-          "iii. Pupil dilation",
-          "iv. Jaw line movement"
-        ],
-        "answer": "ii. Vascularity around the face"
-      },
-
-      {
-        "question": "The following self-report techniques are used to examine the state of happiness in subjects. Indicate the ones that are termed as projective techniques?",
-        "options": [
-          "i. Only a, c and d are true",
-          "ii. Only a, b and c are true",
-          "iii. Only b, c and d are true",
-          "iv. All of these are true"
-        ],
-        "answer": "i. Only a, c and d are true"
-      },
-
-      {
-        "question": "“The true essence of advertising is to make customers want more. It is designed to make them restless, leaving little room for contentment”. This definition was proposed by ____________? (Fill in the blank)",
-        "options": [
-          "i. Mel Cruickshank",
-          "ii. Jonathan Trimble",
-          "iii. John Campbell",
-          "iv. Omaid Hiwaizi"
-        ],
-        "answer": "iv. Omaid Hiwaizi"
-      },
-
-      {
-        "question": "Some of the following aspects are harmful contributions of advertisements on our everyday lives. Which of them are true?",
-        "options": [
-          "i. Only a, b and d are true",
-          "ii. Only a, c and d are true",
-          "iii. Only a, b and c are true",
-          "iv. All of these are true"
-        ],
-        "answer": "i. Only a, b and d are true"
-      },
-
-      {
-        "question": "An advertisement features a group of people stranded in a rural village after a massive landslide caused by torrential rain. One of them is severely injured and needs emergency medical attention. In a place like this there is no well-developed hospital and the road connectivity is almost cut off. After a brief struggle, just before passing away, the man takes out a plastic wrapped document from under his shirt and hands it over to his crying wife beside him. The next scene jumps to one month after this incident, where it is shown that the wife is rebuilding their home out of scratch and remembering the last moments with her husband, and the piece of document which he gave her turned out to be his life insurance policy. Finally, the ad ends with the note that after his demise, how the said life insurance company acted promptly to give her the money and stood beside her during her misery. This is an example of a ___________. (Fill in the blank)",
-        "options": [
-          "i. Positive ad giving a negative message",
-          "ii. Positive ad giving a positive message",
-          "iii. Negative ad giving a negative message",
-          "iv. Negative ad giving a positive message"
-        ],
-        "answer": "iv. Negative ad giving a positive message"
-      },
-
-      {
-        "question": "Which of the following technologies were evolved during World War II?",
-        "options": [
-          "i. Only a, b and c are true",
-          "ii. Only a, b and d are true",
-          "iii. Only b, c and d are true",
-          "iv. All of these are true"
-        ],
-        "answer": "ii. Only a, b and d are true"
-      },
-
-      {
-        "question": "Sarah had always dreamed of owning a sleek, red automatic convertible. Coming to know this, Sarah’s boss, being extremely impressed by her dedicated and hard-working nature, gifts Sarah her dream car. The first few weeks were exhilarating. The wind in her hair, the envious glances, the pure joy of driving her prized possession were intoxicating. However, as the novelty wore off, so did the thrill. The initial excitement gradually transformed into a sense of normalcy. The once extraordinary car became just another mode of transportation for her. The mandatory long drives during every weekend and the thrill of the open road was gradually replaced by the monotony of daily commutes. After one and a half years she even started thinking about buying a new mountain bike for more adventure trips. What's the most likely explanation of Sarah’s thought process?",
-        "options": [
-          "i. The new car is not technologically advanced enough to be driven on any road condition",
-          "ii. The increasing work pressure at office is taking a toll on Sarah’s mental health",
-          "iii. Sarah is showing the symptoms of set point effect",
-          "iv. Sarah has unrealistic expectations from her boss"
-        ],
-        "answer": "iii. Sarah is showing the symptoms of set point effect"
-      },
-
-      {
-        "question": "Which of the following factors are driving technologies in a particular direction?",
-        "options": [
-          "i. Only a, b and c are true",
-          "ii. Only b, c and d are true",
-          "iii. Only a, b and d are true",
-          "iv. All of these are true"
-        ],
-        "answer": "ii. Only b, c and d are true"
-      },
-
-      {
-        "question": "Research shows that automated speech analysis can be used effectively during interviews for positive trait assessment of the candidates. According to their findings, compared to low dominance, a highly dominant voice will have _________________. (Fill in the blank)",
-        "options": [
-          "i. Lower number of pauses and lower average duration of pauses",
-          "ii. Higher number of pauses and higher average duration of pauses",
-          "iii. Higher number of pauses and lower average duration of pauses",
-          "iv. Lower number of pauses and higher average duration of pauses"
-        ],
-        "answer": "iii. Higher number of pauses and lower average duration of pauses"
-      },
-
-      {
-        "question": "Pinaki, a visual artist himself, tried to understand through scientific research if artists can predict where the viewers will look primarily while viewing their paintings. Using various measurement tools and techniques, he studied how the artists generally use certain visual strategies and anticipate that the viewers’ gazing behaviour will follow a certain pathway while looking at those paintings. Which of the following methods/tools he can use in this research?",
-        "options": [
-          "i. Only a, b and c can be used",
-          "ii. Only b, c and d can be used",
-          "iii. Only a, c and d can be used",
-          "iv. All of these can be used"
-        ],
-        "answer": "i. Only a, b and c can be used"
-      },
-
-      {
-        "question": "Suppose, you are conducting research where you wish to explore if (and how) a person’s emotion perception changes if they are already in a pre-induced happy or sad mood in comparison to a neutral state. Which of the following interventions can you use for mood induction in participants?",
-        "options": [
-          "i. Only a and c can be used",
-          "ii. Only a, b and c can be used",
-          "iii. Only a, c and d can be used",
-          "iv. All of these can be used"
-        ],
-        "answer": "iv. All of these can be used"
-      },
-
-      {
-        "question": "Social innovations are open source in nature. Is this statement true?",
-        "options": [
-          "i. True",
-          "ii. False"
-        ],
-        "answer": "i. True"
-      },
-
-      {
-        "question": "Some of the following are examples of social innovation initiatives across the globe. Which of them are true?",
-        "options": [
-          "i. Only a, b and c are true",
-          "ii. Only a, c and d are true",
-          "iii. Only b, c and d are true",
-          "iv. All of these are true"
-        ],
-        "answer": "ii. Only a, c and d are true"
-      },
-
-      {
-        "question": "Mobile banking and financial services have changed the lives of the common people for the better, particularly in India where mobile money transfers have been embraced by millions of users who previously did not have access to banking services. This has enabled them to save money, make payments and receive remittances with ease, empowering them in ways that were not possible before. This is ___________. (Fill in the blank)",
-        "options": [
-          "i. A social innovation in healthcare",
-          "ii. A social innovation in business management",
-          "iii. A social innovation in community development",
-          "iv. A social innovation in education"
-        ],
-        "answer": "iii. A social innovation in community development"
-      }
     ]
 };
