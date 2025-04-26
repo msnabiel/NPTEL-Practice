@@ -254,313 +254,309 @@ week2: [
   answer: "Only a, c, d and e are true",
 },
 ],
-  week3:[
-    {
-      question: "Some of the following are examples of personality disorders caused by lack of empathy. Which of them are true?",
-      options: [
-        "Only a, b and c are true",
-        "Only a, b and d are true",
-        "Only b, c and d are true",
-        "All of these are true"
-      ],
-      answer: "Only a, b and d are true",
-    },
-    {
-      question: "On Monday morning, Shefali comes to her classroom with a feeling of calmness... This is an example of ___________.",
-      options: [
-        "Psychopathy",
-        "Sympathy",
-        "Narcissism",
-        "Emotional contagion"
-      ],
-      answer: "Emotional contagion",
-    },
-    {
-      question: "Which of the following best demonstrates the elderly woman's reaction towards Sarah?",
-      options: [
-        "She was apathetic to Sarah and did not bother much about the situation",
-        "She was sympathetic towards Sarah but could not give her any mental support",
-        "She was compassionate towards Sarah and provided a safe space to express her emotions",
-        "She was empathetic towards Sarah and could understand Sarah’s pain by putting herself in the situation"
-      ],
-      answer: "She was compassionate towards Sarah and provided a safe space to express her emotions",
-    },
-    {
-      question: "The concept of “Moral disengagement” is proposed by __________.",
-      options: [
-        "Albert Bandura",
-        "Martin Seligman",
-        "Bertrand Russell",
-        "Sigmund Freud"
-      ],
-      answer: "Albert Bandura",
-    },
-    {
-      question: "Some of the following concepts are correct in the context of morality, in general. Which of them are true?",
-      options: [
-        "Only a, b and d are true",
-        "Only a and c are true",
-        "Only b, c and d are true",
-        "Only b and d are true"
-      ],
-      answer: "Only b and d are true",
-    },
-    {
-      question: "Cultural variations do not affect the constructs of moral standards. Is the statement true?",
-      options: [
-        "True",
-        "False"
-      ],
-      answer: "False",
-    },
-    {
-      question: "Heteronym in literature refers to one or more imaginary character(s)... Which of the following poets used heteronyms in literature exhaustively?",
-      options: [
-        "William Wordsworth",
-        "Fernando Pessoa",
-        "John Keats",
-        "Camilo Pessanha"
-      ],
-      answer: "Fernando Pessoa",
-    },
-    {
-      question: "Who wrote the story about the young man, Siddharth, who used to say “I can think, I can wait, I can fast”?",
-      options: [
-        "Heinrich Heine",
-        "Thomas Mann",
-        "Hermann Hesse",
-        "Freidrich Schiller"
-      ],
-      answer: "Hermann Hesse",
-    },
-    {
-      question: "Which of the following attributes can be associated with the Self?",
-      options: [
-        "Only a and c are true",
-        "Only b and d are true",
-        "Only b and c are true",
-        "None of these are true"
-      ],
-      answer: "Only b and c are true",
-    },
-    {
-      question: "Which of the following factors is/are intrinsic driver(s) or reason(s) of prosocial behaviour?",
-      options: [
-        "Only a is true",
-        "Only a and b are true",
-        "Only a and c are true",
-        "All of these are true"
-      ],
-      answer: "Only a and c are true",
-    },
-    {
-      question: "Veena is attending a charity event where people are pledging donations... Which psychological phenomenon primarily describes Veena’s reaction?",
-      options: [
-        "Sunk cost fallacy",
-        "Bandwagon effect",
-        "Cognitive dissonance",
-        "Groupthink"
-      ],
-      answer: "Bandwagon effect",
-    },
-    {
-      question: "The Prisoner's Dilemma reflects",
-      options: [
-        "The process of deciding punishments for crimes involving multiple criminals",
-        "The importance of always trusting your friends",
-        "The power of luck and random chance in decision-making",
-        "The tension between individual and others’ benefits in various situations"
-      ],
-      answer: "The tension between individual and others’ benefits in various situations",
-    },
-    {
-      question: "Virtues are not generalizable across various traditions. Is the statement true?",
-      options: [
-        "True",
-        "False"
-      ],
-      answer: "False",
-    },
-    {
-      question: "Which of the following are subcomponents of the virtue ‘Courage’ as identified by Peterson and Seligman, and also play very important roles in the context of leadership?",
-      options: [
-        "Only a, b and d are true",
-        "Only a and b are true",
-        "Only b, c and d are true",
-        "Only c and d are true"
-      ],
-      answer: "Only c and d are true",
-    },
-    {
-      question: "Some of the following activities are more likely to contribute to the \"Relationship\" element of the PERMA model of wellbeing proposed by famous American psychologist Martin Seligman. Which of them are true?",
-      options: [
-        "Only a, b and d are true",
-        "Only a and b are true",
-        "Only b, c and d are true",
-        "Only c and d are true"
-      ],
-      answer: "Only a, b and d are true",
-    }
-  ],
+week3: [
+  {
+    question: "Some of the following are examples of personality disorders caused by lack of empathy. Which of them are true?\n\na. Sociopathy\nb. Narcissism\nc. Telepathy\nd. Psychopathy",
+    options: [
+      "Only a, b and c are true",
+      "Only a, b and d are true",
+      "Only b, c and d are true",
+      "All of these are true",
+    ],
+    answer: "Only a, b and d are true",
+  },
+  {
+    question: "On Monday morning, Shefali comes to her classroom with a feeling of calmness and composure, as she has confidence that she will do good enough in her final exam viva. As she takes her seat, she notices Mrinmay, sitting right next to her, biting his nails, looking incredibly anxious and talking to others about the possible negative outcomes of the exam. Mrinmay has a history of severe test anxiety. Within minutes, Shefali finds herself in a nervous state, feeling her own heart racing and palms sweating and many of the friends sitting around them talking about the similar negative situations. This is an example of:",
+    options: [
+      "Psychopathy",
+      "Sympathy",
+      "Narcissism",
+      "Emotional contagion",
+    ],
+    answer: "Emotional contagion",
+  },
+  {
+    question: "The rain hammered against the bus windows, blurring the neon lights of the city into streaks of colour. Inside, huddled amongst the passengers, sat Sarah crying silently. Shame washed over her as she remembered the rejection email from her dream job, the final blow to an already difficult week. As Sarah fumbled for her bag, a gentle hand touched her shoulder. It was an elderly woman, her kind eyes crinkling at the corners. \"Rough day, dear?\" she asked softly. Sarah hesitated, then choked out a sob. The woman sat beside her, listening patiently as Sarah poured out her heart. She didn't offer empty platitudes or unsolicited advice, rather kept on listening to her emotional outburst silently. As Sarah reached her stop, she felt lighter, a weight lifted from her shoulders. \"Thank you,\" Sarah whispered, a genuine smile breaking through her tears. The woman smiled back, \"Just remember, dear, we all have these moments. Like all good things, bad things also do not last forever. But, when you’re down, don't be afraid to lean on others.\" Which of the following best demonstrates the elderly woman's reaction towards Sarah?",
+    options: [
+      "She was apathetic to Sarah and did not bother much about the situation",
+      "She was sympathetic towards Sarah but could not give her any mental support",
+      "She was compassionate towards Sarah and provided a safe space to express her emotions",
+      "She was empathetic towards Sarah and could understand Sarah’s pain by putting herself in the situation",
+    ],
+    answer: "She was compassionate towards Sarah and provided a safe space to express her emotions",
+  },
+  {
+    question: "The concept of “Moral disengagement” is proposed by:",
+    options: [
+      "Albert Bandura",
+      "Martin Seligman",
+      "Bertrand Russell",
+      "Sigmund Freud",
+    ],
+    answer: "Albert Bandura",
+  },
+  {
+    question: "Some of the following concepts are correct in the context of morality, in general. Which of them are true?\n\na. Morally grounded individuals are well-adjusted\nb. Change in moral standard is possible, if it is not a cardinal trait\nc. Morality develops as we grow old\nd. Biology & morality are mutually inclusive and the pre-frontal lobe is the locus for moral judgment",
+    options: [
+      "Only a, b and d are true",
+      "Only a and c are true",
+      "Only b, c and d are true",
+      "Only b and d are true",
+    ],
+    answer: "Only b and d are true",
+  },
+  {
+    question: "Cultural variations do not affect the constructs of moral standards. Is the statement true?",
+    options: [
+      "True",
+      "False",
+    ],
+    answer: "False",
+  },
+  {
+    question: "Heteronym in literature refers to one or more imaginary character(s) created by a writer to write in different styles. Which of the following poets used heteronyms in literature exhaustively?",
+    options: [
+      "William Wordsworth",
+      "Fernando Pessoa",
+      "John Keats",
+      "Camilo Pessanha",
+    ],
+    answer: "Fernando Pessoa",
+  },
+  {
+    question: "Who wrote the story about the young man, Siddharth, who used to say “I can think, I can wait, I can fast”?",
+    options: [
+      "Heinrich Heine",
+      "Thomas Mann",
+      "Hermann Hesse",
+      "Freidrich Schiller",
+    ],
+    answer: "Hermann Hesse",
+  },
+  {
+    question: "Which of the following attributes can be associated with the Self?\n\na. Sorted\nb. Divided\nc. Conflicted\nd. Unified",
+    options: [
+      "Only a and c are true",
+      "Only b and d are true",
+      "Only b and c are true",
+      "None of these are true",
+    ],
+    answer: "Only b and c are true",
+  },
+  {
+    question: "Which of the following factors is/are intrinsic driver(s) or reason(s) of prosocial behaviour?\n\na. Values\nb. Peer pressure\nc. Warm glow\nd. Career ambition",
+    options: [
+      "Only a is true",
+      "Only a and b are true",
+      "Only a and c are true",
+      "All of these are true",
+    ],
+    answer: "Only a and c are true",
+  },
+  {
+    question: "Veena is attending a charity event where people are pledging donations to an NGO for child healthcare and education. She is unsure of the ideal amount of donation, but she observes that many other people around her are pledging to donate various amounts of money. Seeing this, Veena, who has been indifferent from the beginning and unsure about the amount which she shall donate, suddenly declares her support for this cause, and goes on to donate a small amount. Which psychological phenomenon primarily describes Veena’s reaction?",
+    options: [
+      "Sunk cost fallacy",
+      "Bandwagon effect",
+      "Cognitive dissonance",
+      "Groupthink",
+    ],
+    answer: "Bandwagon effect",
+  },
+  {
+    question: "The Prisoner's Dilemma reflects:",
+    options: [
+      "The process of deciding punishments for crimes involving multiple criminals",
+      "The importance of always trusting your friends",
+      "The power of luck and random chance in decision-making",
+      "The tension between individual and others’ benefits in various situations",
+    ],
+    answer: "The tension between individual and others’ benefits in various situations",
+  },
+  {
+    question: "Virtues are not generalizable across various traditions. Is the statement true?",
+    options: [
+      "True",
+      "False",
+    ],
+    answer: "False",
+  },
+  {
+    question: "Which of the following are subcomponents of the virtue ‘Courage’ as identified by Peterson and Seligman, and also play very important roles in the context of leadership?\n\na. Prudence\nb. Self-regulation\nc. Perseverance\nd. Honesty",
+    options: [
+      "Only a, b and d are true",
+      "Only a and b are true",
+      "Only b, c and d are true",
+      "Only c and d are true",
+    ],
+    answer: "Only c and d are true",
+  },
+  {
+    question: "Some of the following activities are more likely to contribute to the \"Relationship\" element of the PERMA model of wellbeing proposed by famous American psychologist Martin Seligman. Which of them are true?\n\na. Showing your appreciation for work colleagues\nb. Organising catch-ups and get-togethers with family or friends, in person or online\nc. Watching your favourite TV show at home alone after dinner\nd. Volunteering in a blood donation camp in your community\ne. Practicing playing a musical instrument",
+    options: [
+      "Only a, b and d are true",
+      "Only a and b are true",
+      "Only b, c and d are true",
+      "Only c and d are true",
+    ],
+    answer: "Only a, b and d are true",
+  },
+  {
+    question: "Adaptation of humans to any positive and negative feelings and eventually those feelings turning to the baseline level is known as:",
+    options: [
+      "Preconceived notion",
+      "Hedonic adaptation",
+      "Cerebral determination",
+      "Base level validation",
+    ],
+    answer: "Hedonic adaptation",
+  },
+],
   week4:[
     {
-      question: "Which among the following factors are some of the components related to community cohesiveness in urban areas?",
-      options: [
+      "question": "Which among the following factors are some of the components related to community cohesiveness in urban areas?\n\na. Freedom\nb. Support\nc. Interference\nd. Festivals",
+      "options": [
         "Only a, b and c are true",
         "Only a, b and d are true",
         "Only b, c and d are true",
         "All of these are true"
       ],
-      answer: "Only a, b and d are true",
+      "answer": "Only a, b and d are true"
     },
-
     {
-      question: "Which among the following is NOT a categorical division of relationships based on kinship?",
-      options: [
+      "question": "Which among the following is NOT a categorical division of relationships based on kinship?",
+      "options": [
         "Family",
         "Romance",
         "Equality",
         "Community"
       ],
-      answer: "Equality",
+      "answer": "Equality"
     },
-
     {
-      question: "Family and spouse relations have a greater significance on a person’s well-being than friends and community members. Is the statement true?",
-      options: [
+      "question": "Family and spouse relations have a greater significance on a person’s well-being than friends and community members. Is the statement true?",
+      "options": [
         "True",
         "False"
       ],
-      answer: "False",
+      "answer": "False"
     },
-
     {
-      question: "Individuals having connections with influential people, those who have further influential connections, belong to the ____________ region of relationship networks?",
-      options: [
+      "question": "Individuals having connections with influential people, those who have further influential connections, belong to the ____________ region of relationship networks?",
+      "options": [
         "Peripheral",
         "Central",
         "Subsequent central",
         "Subsequent peripheral"
       ],
-      answer: "Central",
+      "answer": "Central"
     },
-
     {
-      question: "Morality resides in the groups rather than individuals. Is the statement true?",
-      options: [
+      "question": "Morality resides in the groups rather than individuals. Is the statement true?",
+      "options": [
         "True",
         "False"
       ],
-      answer: "True",
+      "answer": "True"
     },
-
     {
-      question: "If Anna and Becky are unknown to each other and reside in opposite parts of the world, what is the maximum number of other people required in between them to establish a connection between Anna and Becky?",
-      options: [
+      "question": "If Anna and Becky are unknown to each other and reside in opposite parts of the world, what is the maximum number of other people required in between them to establish a connection between Anna and Becky?",
+      "options": [
         "Three",
         "Six",
         "Five",
         "Nine"
       ],
-      answer: "Five",
+      "answer": "Five"
     },
-
     {
-      question: "In the context of the question if money can buy us happiness, some of the following statements are the findings of the research carried out by Daniel Kahneman and Angus Deaton in 2010. Which of them are true?",
-      options: [
+      "question": "In the context of the question if money can buy us happiness, some of the following statements are the findings of the research carried out by Daniel Kahneman and Angus Deaton in 2010. Which of them are true?\n\na. The quality of the respondents’ everyday emotional experiences did not improve beyond $75,000 a year\nb. There is little evidence of an income threshold at which experienced & evaluative wellbeing diverged\nc. Proportional differences in money matter the same to everyone\nd. Beyond $75,000, money is important for life evaluation, but does not contribute positively in emotional wellbeing",
+      "options": [
         "Only a and d are true",
         "Only b and c are true",
         "Only a and c are true",
         "Only b, c and d are true"
       ],
-      answer: "Only a and d are true",
+      "answer": "Only a and d are true"
     },
-
     {
-      question: "People may contribute more to society when they have less wealth themselves. This inference is driven from the study conducted by ____________.",
-      options: [
+      "question": "People may contribute more to society when they have less wealth themselves. This inference is driven from the study conducted by _____________.",
+      "options": [
         "Angus Deaton",
         "Matthew Killingsworth",
         "Erik Erikson",
         "Lindsay Dodgson"
       ],
-      answer: "Lindsay Dodgson",
+      "answer": "Lindsay Dodgson"
     },
-
     {
-      question: "Money and happiness are not directly connected because _____________. (Fill in the blank)",
-      options: [
+      "question": "Money and happiness are not directly connected because _____________.",
+      "options": [
         "Money has intrinsic value while happiness depends on extrinsic value",
         "Money has extrinsic value while happiness depends on intrinsic value",
         "Both money and happiness have extrinsic value but their importance varies in accordance with events",
         "Wealth and happiness are often found together"
       ],
-      answer: "Money has extrinsic value while happiness depends on intrinsic value",
+      "answer": "Money has extrinsic value while happiness depends on intrinsic value"
     },
-
     {
-      question: "Learned optimism, a phenomenon proposed by Martin Seligman, is based upon research on …. ",
-      options: [
+      "question": "Learned optimism, a phenomenon proposed by Martin Seligman, is based upon research on ….\n\na. Learned helplessness\nb. Attributional style\nc. Explanatory Pessimism\nd. Optimistic bias",
+      "options": [
         "Only a and b are true",
         "Only b and c are true",
         "Only b and d are true",
         "Only a and d are true"
       ],
-      answer: "Only a and b are true",
+      "answer": "Only a and b are true"
     },
-
     {
-      question: "For the people with a positive belief system, gene unfolding will be different from those having a negative belief system. Is this statement true?",
-      options: [
+      "question": "For the people with a positive belief system, gene unfolding will be different from those having a negative belief system. Is this statement true?",
+      "options": [
         "True",
         "False"
       ],
-      answer: "True",
+      "answer": "True"
     },
-
     {
-      question: "Some of the following are symptoms of optimistic bias. Which of these are true?",
-      options: [
+      "question": "Some of the following are symptoms of optimistic bias. Which of these are true?\n\na. Change in objective reality\nb. Reduced precautionary measures\nc. Reduced harmful behaviors\nd. Temporal discounting",
+      "options": [
         "Only a, b and c are true",
         "Only a, b and d are true",
         "Only a, c and d are true",
         "All of these are true"
       ],
-      answer: "Only a, b and d are true",
+      "answer": "Only a, b and d are true"
     },
-
     {
-      question: "A fMRI study revealed that the same locus of the brain responds to both social rejection and physical pain and the area is _________. (Fill in the blank)",
-      options: [
+      "question": "A fMRI study revealed that the same locus of the brain responds to both social rejection and physical pain and the area is _________.",
+      "options": [
         "Anterior cingulate gyrus",
         "Amygdala",
         "Hippocampus",
         "Broca’s area"
       ],
-      answer: "Anterior cingulate gyrus",
+      "answer": "Anterior cingulate gyrus"
     },
-
     {
-      question: "Belongingness is a basic need which has both physical and emotional aspects. The emotional aspect of belongingness is called ______________. (Fill in the blank)",
-      options: [
+      "question": "Belongingness is a basic need which has both physical and emotional aspects. The emotional aspect of belongingness is called ______________.",
+      "options": [
         "Intimacy",
         "Compassion",
         "Altruism",
         "Connectedness"
       ],
-      answer: "Connectedness",
+      "answer": "Connectedness"
     },
-
     {
-      question: "Which of the following cases are examples of the concept called “senseless act of beauty”?",
-      options: [
+      "question": "Which of the following cases are examples of the concept called “senseless act of beauty”?\n\na. A man suddenly saving a person unknown to him from an impending train accident without any future expectations, even risking his own life\nb. A man buying a new house and medical insurances for his wife and children with a large share of his savings\nc. A woman who stopped her car while driving to give water to a thirsty monkey sitting on the roadside\nd. A crowd at a concert spontaneously helping a person sitting on a wheelchair to watch the show without obstruction by lifting him up in the air",
+      "options": [
         "Only a, b and c are true",
         "Only a and d are true",
         "Only a, c and d are true",
         "All of these are true"
       ],
-      answer: "Only a, c and d are true",
-    },
+      "answer": "Only a, c and d are true"
+    }
   ],
   week5:[
     {
