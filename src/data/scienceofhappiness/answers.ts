@@ -5,260 +5,255 @@ type Question = {
   };
   
   export const questionsByWeek: { [week: string]: Question[] } = {
-    week1: [
-      {
-        question: "Which country played a key role in proposing the concept of “Gross National Happiness” as a scale for measuring the happiness level of a country?",
-        options: ["China", "Bhutan", "USA", "Finland"],
-        answer: "Bhutan",
-      },
-      {
-        question: "Which of the following are some general characteristics of happy people?",
-        options: [
-          "Only A and B are true",
-          "Only A, B and D are true",
-          "Only B and D are true",
-          "All of these are true"
-        ],
-        answer: "All of these are true",
-      },
-      {
-        question: "According to the thematic classification of the course “Science of happiness and wellbeing” which of the following come under ‘basics’ section?",
-        options: [
-          "Only B and C are true",
-          "Only B, C and D are true",
-          "Only C and D are true",
-          "Only A, B and D are true"
-        ],
-        answer: "Only C and D are true",
-      },
-      {
-        question: "In early phases of civilization, happiness was demologically associated with luck. Is this statement true?",
-        options: ["True", "False"],
-        answer: "True",
-      },
-      {
-        question: "Who defined Happiness as the “the experience of joy, contentment, or positive well-being, combined with a sense that one's life is good, meaningful, and worthwhile”?",
-        options: [
-          "Daniel Kahneman",
-          "Ruut Venhooven",
-          "Sonja Lyubomirsky",
-          "Martin Seligman"
-        ],
-        answer: "Sonja Lyubomirsky",
-      },
-      {
-        question: "The term “Prasanna” mentioned in Bhagvat Purana as a term representing a particular shade of happiness is a",
-        options: [
-          "Only A and B are true",
-          "Only A, B and D are true",
-          "All of these are true",
-          "Only B and D are true"
-        ],
-        answer: "Only B and D are true",
-      },
-      {
-        question: "In the context of an integral relationship between environment and happiness, the story of Sarpa Satra by Arun Kolatkar deals with the conflicts regarding the destruction of Khandava forest between _____________.",
-        options: [
-          "Lord Indra and Lord Krishna",
-          "Lord Shiva and Lord Krishna",
-          "Lord Brahma and Lord Shiva",
-          "Lord Indra and Lord Brahma"
-        ],
-        answer: "Lord Indra and Lord Krishna",
-      },
-      {
-        question: "Which among the following are examples of ambivalent feelings associated with happiness?",
-        options: [
-          "Only A and C are true",
-          "Only A, C and D are true",
-          "Only C and D are true",
-          "All are true"
-        ],
-        answer: "Only A, C and D are true",
-      },
-      {
-        question: "The idea of fundamental dimensions of well-being, which is primarily experienced through feelings, influenced by relationships and cultivated through personal development, is given by __________.",
-        options: [
-          "Tim Lomas",
-          "Martin Luther King",
-          "George MacKerron",
-          "Sonja Lyubomirshy"
-        ],
-        answer: "Tim Lomas",
-      },
-      {
-        question: "In which of the following religious traditions, “Knowing the self as a Soul different from the body” is the first and necessary condition for Happiness?",
-        options: ["Christian", "Jainism", "Islamic", "Buddhism"],
-        answer: "Jainism",
-      },
-      {
-        question: "According to the Pancha Kosha theory, choose the correct sequence for the five koshas from lower to higher state of consciousness.",
-        options: [
-          "Vijnanamaya Kosha, Manomaya koshha, Pranamaya kosha, Annamaya kosha, Anandamaya Kosha",
-          "Manomaya koshha, Pranamaya kosha, Annamaya kosha, Anandamaya Kosha, Vijnanamaya Kosha",
-          "Anandamaya Kosha, Manomaya kosha, Pranamaya kosha, Annamaya kosha, Vijnanamaya Kosha",
-          "Annamaya Kosha, Pranamaya Kosha, Manomaya koshha, Vijnanamaya kosha, Anandamaya kosha"
-        ],
-        answer: "Annamaya Kosha, Pranamaya Kosha, Manomaya koshha, Vijnanamaya kosha, Anandamaya kosha",
-      },
-      {
-        question: "“The Myth of Sisyphus” is a book written by _________ where he focused on the concept of admitting death as the only permanent and accepting life as absurd?",
-        options: [
-          "Albert Camus",
-          "Franz Kafka",
-          "Alain de Botton",
-          "Hildegard of Bingen"
-        ],
-        answer: "Albert Camus",
-      },
-      {
-        question: "Extremely happy people can be distracted and may not be creative or innovative. Is the statement true?",
-        options: ["True", "False"],
-        answer: "True",
-      },
-      {
-        question: "Which among the following are key indicators of unhappiness?",
-        options: [
-          "Only A and B are true",
-          "Only A, B and D are true",
-          "Only B and D are true",
-          "Only A and D are true"
-        ],
-        answer: "Only A, B and D are true",
-      },
-      {
-        question: "Adaptation of humans to any positive and negative feelings and eventually those feelings turning to the baseline level is known as",
-        options: [
-          "Preconceived notion",
-          "Hedonic adaptation",
-          "Cerebral determination",
-          "Base level validation"
-        ],
-        answer: "Hedonic adaptation",
-      }
+    const week1 = [
+  {
+    question: "Which country played a key role in proposing the concept of “Gross National Happiness” as a scale for measuring the happiness level of a country?",
+    options: ["China", "Bhutan", "USA", "Finland"],
+    answer: "Bhutan",
+  },
+  {
+    question: "Which of the following are some general characteristics of happy people?\n\nA. They are more productive and creative at work\nB. They have more gratitude and compassion\nC. They are good negotiators and leaders\nD. They are physically healthier and have good immunity",
+    options: [
+      "Only A and B are true",
+      "Only A, B and D are true",
+      "Only B and D are true",
+      "All of these are true"
     ],
-    week2: [
-      {
-        question: "Which of the following are primary parameters of happiness?",
-        options: [
-          "Only a and b are correct",
-          "Only b and c are correct",
-          "Only a, b and d are correct",
-          "All of these are correct"
-        ],
-        answer: "Only a, b and d are correct",
-      },
-      {
-        question: "Choice over compulsion is one of the major guiding philosophies of the course science of happiness and wellbeing. Is this statement true?",
-        options: ["True", "False"],
-        answer: "True",
-      },
-      {
-        question: "Which among the following are some of the contributions of happiness in life?",
-        options: [
-          "Only b, c and d are correct",
-          "Only a, b, c and e are correct",
-          "Only a, b, d and e are correct",
-          "All of these are correct"
-        ],
-        answer: "Only a, b, c and e are correct",
-      },
-      {
-        question: "A pan cultural study done by ___________ across 136 countries revealed that purchasing a gift for someone else enhances our happiness level more than receiving a gift from someone.",
-        options: ["Park et al.", "Kahneman et al.", "Seligman et al.", "Dunn et al."],
-        answer: "Dunn et al.",
-      },
-      {
-        question: "A two week’s vacation is twice as good as a one week vacation. Is the statement true?",
-        options: ["True", "False"],
-        answer: "False",
-      },
-      {
-        question: "Some of the following are the key findings of a study done by Bastian et al. (2014). Which of them are true?",
-        options: [
-          "Only c and d are true",
-          "Only b, c and d are true",
-          "Only a, b and d are true",
-          "All of these are true"
-        ],
-        answer: "All of these are true",
-      },
-      {
-        question: "Consumer behaviour, according to Daniel Kahneman, is primarily dominated by __________.",
-        options: ["Memory", "Moment", "Money", "Missing out"],
-        answer: "Moment",
-      },
-      {
-        question: "Which of the following options correctly explains the concept of “betweenness”?",
-        options: [
-          "When we don’t mind being unhappy if everybody around us is unhappy",
-          "When we anticipate that others around us are happy amidst a sense of self-unhappiness",
-          "When we believe that we can be happy if others are happy, even if we have to compromise our own happiness for the sake of others’ happiness",
-          "When we believe that our personal pleasure is the most important thing, even if it comes at the cost of others"
-        ],
-        answer: "When we believe that we can be happy if others are happy, even if we have to compromise our own happiness for the sake of others’ happiness",
-      },
-      {
-        question: "Anil and Raj are two college friends... While deciding on the job offer which each of them shall accept, _____________.",
-        options: [
-          "Anil will be happier than Raj",
-          "Raj will be happier than Anil",
-          "Both of them will be equally happy",
-          "None of them will be happy"
-        ],
-        answer: "Anil will be happier than Raj",
-      },
-      {
-        question: "‘We are not designed for happiness or unhappiness…but to strive for the goals that evolution has built us into’. This is a statement by __________.",
-        options: ["Daniel Kahneman", "Martin Seligman", "Daniel Nettle", "Charles Darwin"],
-        answer: "Daniel Nettle",
-      },
-      {
-        question: "According to the evolutionary theory of emotions, our survival is possible because of adaptation. In this context, which of the following statements are true?",
-        options: [
-          "Only b and c are true",
-          "Only a and b are true",
-          "Only a and c are true",
-          "All of these are true"
-        ],
-        answer: "Only a and b are true",
-      },
-      {
-        question: "Which of the following statements are true in the context of happiness and pleasure?",
-        options: [
-          "Only a, b and c are true",
-          "Only b, c and d are true",
-          "Only a, c and d are true",
-          "All of these are true"
-        ],
-        answer: "All of these are true",
-      },
-      {
-        question: "Which among the following four aspects does NOT contribute to the formation of our belief system?",
-        options: ["Stereotypes", "Opinions", "Perceptions", "Meta"],
-        answer: "Stereotypes",
-      },
-      {
-        question: "In 2021, Jeremy Clifton proposed the concept of 'Primal belief'... which of the following are the secondary primal beliefs?",
-        options: [
-          "Only a, c and d are true",
-          "Only a, b and c are true",
-          "Only b, c and d are true",
-          "All of these are true"
-        ],
-        answer: "Only a, b and c are true",
-      },
-      {
-        question: "In 2015, Bruce Lipton... According to his conjectures, which of the following are true?",
-        options: [
-          "Only a, b, c and e are true",
-          "Only b, c, d and e are true",
-          "Only a, c, d and e are true",
-          "Only a, b, d and e are true"
-        ],
-        answer: "Only a, c, d and e are true",
-      },
+    answer: "All of these are true",
+  },
+  {
+    question: "According to the thematic classification of the course “Science of happiness and wellbeing” which of the following come under ‘basics’ section?\n\nA. Creative music and art therapy for happiness\nB. Different tools and scales for measurement of happiness\nC. Relationship between money, material wealth and happiness\nD. If happiness is genetically determined",
+    options: [
+      "Only B and C are true",
+      "Only B, C and D are true",
+      "Only C and D are true",
+      "Only A, B and D are true"
     ],
+    answer: "Only C and D are true",
+  },
+  {
+    question: "In early phases of civilization, happiness was demologically associated with luck. Is this statement true?",
+    options: ["True", "False"],
+    answer: "True",
+  },
+  {
+    question: "Who defined Happiness as the “the experience of joy, contentment, or positive well-being, combined with a sense that one's life is good, meaningful, and worthwhile”?",
+    options: ["Daniel Kahneman", "Ruut Venhooven", "Sonja Lyubomirsky", "Martin Seligman"],
+    answer: "Sonja Lyubomirsky",
+  },
+  {
+    question: "The term “Prasanna” mentioned in Bhagvat Purana as a term representing a particular shade of happiness is a\n\nA. Non-peak experience\nB. Long term experience\nC. External experience\nD. Spiritual experience",
+    options: [
+      "Only A and B are true",
+      "Only A, B and D are true",
+      "All of these are true",
+      "Only B and D are true"
+    ],
+    answer: "Only B and D are true",
+  },
+  {
+    question: "In the context of an integral relationship between environment and happiness, the story of Sarpa Satra by Arun Kolatkar deals with the conflicts regarding the destruction of Khandava forest between _____________.",
+    options: [
+      "Lord Indra and Lord Krishna",
+      "Lord Shiva and Lord Krishna",
+      "Lord Brahma and Lord Shiva",
+      "Lord Indra and Lord Brahma"
+    ],
+    answer: "Lord Indra and Lord Krishna",
+  },
+  {
+    question: "Which among the following are examples of ambivalent feelings associated with happiness?\n\nA. Sensitivity to mystery\nB. Euphoria\nC. Romantic longing\nD. Hope or anticipation",
+    options: [
+      "Only A and C are true",
+      "Only A, C and D are true",
+      "Only C and D are true",
+      "All are true"
+    ],
+    answer: "Only A, C and D are true",
+  },
+  {
+    question: "The idea of fundamental dimensions of well-being, which is primarily experienced through feelings, influenced by relationships and cultivated through personal development, is given by __________.",
+    options: ["Tim Lomas", "Martin Luther King", "George MacKerron", "Sonja Lyubomirshy"],
+    answer: "Tim Lomas",
+  },
+  {
+    question: "In which of the following religious traditions, “Knowing the self as a Soul different from the body” is the first and necessary condition for Happiness?",
+    options: ["Christian", "Jainism", "Islamic", "Buddhism"],
+    answer: "Jainism",
+  },
+  {
+    question: "According to the Pancha Kosha theory, choose the correct sequence for the five koshas from lower to higher state of consciousness.",
+    options: [
+      "Vijnanamaya Kosha, Manomaya koshha, Pranamaya kosha, Annamaya kosha, Anandamaya Kosha",
+      "Manomaya koshha, Pranamaya kosha, Annamaya kosha, Anandamaya Kosha, Vijnanamaya Kosha",
+      "Anandamaya Kosha, Manomaya kosha, Pranamaya kosha, Annamaya kosha, Vijnanamaya Kosha",
+      "Annamaya Kosha, Pranamaya Kosha, Manomaya koshha, Vijnanamaya kosha, Anandamaya kosha"
+    ],
+    answer: "Annamaya Kosha, Pranamaya Kosha, Manomaya koshha, Vijnanamaya kosha, Anandamaya kosha",
+  },
+  {
+    question: "“The Myth of Sisyphus” is a book written by _________ where he focused on the concept of admitting death as the only permanent and accepting life as absurd.",
+    options: ["Albert Camus", "Franz Kafka", "Alain de Botton", "Hildegard of Bingen"],
+    answer: "Albert Camus",
+  },
+  {
+    question: "Extremely happy people can be distracted and may not be creative or innovative. Is the statement true?",
+    options: ["True", "False"],
+    answer: "True",
+  },
+  {
+    question: "Which among the following are key indicators of unhappiness?\n\nA. Social isolation\nB. Lack of eye contact\nC. Regular sleep cycle\nD. Recurring negative emotion",
+    options: [
+      "Only A and B are true",
+      "Only A, B and D are true",
+      "Only B and D are true",
+      "Only A and D are true"
+    ],
+    answer: "Only A, B and D are true",
+  },
+  {
+    question: "Adaptation of humans to any positive and negative feelings and eventually those feelings turning to the baseline level is known as",
+    options: [
+      "Preconceived notion",
+      "Hedonic adaptation",
+      "Cerebral determination",
+      "Base level validation"
+    ],
+    answer: "Hedonic adaptation",
+  }
+],
+    const week2 = [
+  {
+    question: "Adaptation of humans to any positive and negative feelings and eventually those feelings turning to the baseline level is known as:",
+    options: [
+      "Preconceived notion",
+      "Hedonic adaptation",
+      "Cerebral determination",
+      "Base level validation",
+    ],
+    answer: "Hedonic adaptation",
+  },
+  {
+    question: "Which of the following are primary parameters of happiness?\n\na. Autonomy\nb. Affluence\nc. Assimilation\nd. Appreciation",
+    options: [
+      "Only a and b are correct",
+      "Only b and c are correct",
+      "Only a, b and d are correct",
+      "All of these are correct",
+    ],
+    answer: "Only a, b and d are correct",
+  },
+  {
+    question: "Choice over compulsion is one of the major guiding philosophies of the course science of happiness and wellbeing. Is this statement true?",
+    options: ["True", "False"],
+    answer: "True",
+  },
+  {
+    question: "Which among the following are some of the contributions of happiness in life?\n\na. Happiness offers us meaning and purpose in life\nb. Happiness helps us to discover new passions, generate curiosity about life, environment and others\nc. Happiness helps us to build stronger coping skill & emotional resources\nd. Happiness reduces life risks and our tolerance to uncertainty\ne. Happiness keeps us healthy – both mentally & physically",
+    options: [
+      "Only b, c and d are correct",
+      "Only a, b, c and e are correct",
+      "Only a, b, d and e are correct",
+      "All of these are correct",
+    ],
+    answer: "Only a, b, c and e are correct",
+  },
+  {
+    question: "A pan cultural study done by ___________ across 136 countries revealed that purchasing a gift for someone else enhances our happiness level more than receiving a gift from someone.",
+    options: ["Park et al.", "Kahneman et al.", "Seligman et al.", "Dunn et al."],
+    answer: "Dunn et al.",
+  },
+  {
+    question: "A two week’s vacation is twice as good as a one week vacation. Is the statement true?",
+    options: ["True", "False"],
+    answer: "False",
+  },
+  {
+    question: "Some of the following are the key findings of a study done by Bastian et al. (2014). Which of them are true?\n\na. Pain forms social bonds\nb. Pain captures our attention\nc. Relief from pain helps us recognize pleasure\nd. Pain is inevitable but suffering is optional",
+    options: [
+      "Only c and d are true",
+      "Only b, c and d are true",
+      "Only a, b and d are true",
+      "All of these are true",
+    ],
+    answer: "All of these are true",
+  },
+  {
+    question: "Consumer behaviour, according to Daniel Kahneman, is primarily dominated by __________.",
+    options: ["Memory", "Moment", "Money", "Missing out"],
+    answer: "Moment",
+  },
+  {
+    question: "Which of the following options correctly explains the concept of “betweenness”?",
+    options: [
+      "When we don’t mind being unhappy if everybody around us is unhappy",
+      "When we anticipate that others around us are happy amidst a sense of self-unhappiness",
+      "When we believe that we can be happy if others are happy, even if we have to compromise our own happiness for the sake of others’ happiness",
+      "When we believe that our personal pleasure is the most important thing, even if it comes at the cost of others",
+    ],
+    answer: "When we believe that we can be happy if others are happy, even if we have to compromise our own happiness for the sake of others’ happiness",
+  },
+  {
+    question: "Anil and Raj are two college friends and have recently completed their Bachelor’s degree. Both of them are brilliant students and often used to compete for the first position in the exams. Recently, Anil has received two decent job offers, one of which is offering a placement in his hometown and a higher salary than the other. Yesterday, they met accidentally at a cafe and Raj revealed that he has received five job offers and all of them are equivalently tempting in terms of salary and other benefits. While deciding on the job offer which each of them shall accept, _____________.",
+    options: [
+      "Anil will be happier than Raj",
+      "Raj will be happier than Anil",
+      "Both of them will be equally happy",
+      "None of them will be happy",
+    ],
+    answer: "Anil will be happier than Raj",
+  },
+  {
+    question: "‘We are not designed for happiness or unhappiness…but to strive for the goals that evolution has built us into’. This is a statement by __________.",
+    options: ["Daniel Kahneman", "Martin Seligman", "Daniel Nettle", "Charles Darwin"],
+    answer: "Daniel Nettle",
+  },
+  {
+    question: "According to the evolutionary theory of emotions, our survival is possible because of adaptation. In this context, which of the following statements are true?\n\na. Survival in early days was binary; one person’s gain was to other person’s loss (e.g., finding mate)\nb. Happiness is a proximate goal (success) while anxiety is a distant goal (failure) to achieve adaptation\nc. While happiness has benefits; discontent does not have any benefit and it is also not necessary for survival",
+    options: [
+      "Only b and c are true",
+      "Only a and b are true",
+      "Only a and c are true",
+      "All of these are true",
+    ],
+    answer: "Only a and b are true",
+  },
+  {
+    question: "Which of the following statements are true in the context of happiness and pleasure?\n\na. Pleasure is more associated with the activation of reward-motivation circuit in the brain and the release of dopamine; whereas happiness and contentment is more associated with the release of serotonin\nb. Pleasure is short-term whereas happiness is long term\nc. Pleasure is addictive i.e., it always makes us think that 'I want more!' whereas happiness is non-addictive and makes us think that 'It’s enough!'\nd. Pleasure is typically experienced alone, whereas happiness inspires giving and generally enhances in shared experiences",
+    options: [
+      "Only a, b and c are true",
+      "Only b, c and d are true",
+      "Only a, c and d are true",
+      "All of these are true",
+    ],
+    answer: "All of these are true",
+  },
+  {
+    question: "Which among the following four aspects does NOT contribute to the formation of our belief system?",
+    options: ["Stereotypes", "Opinions", "Perceptions", "Meta"],
+    answer: "Stereotypes",
+  },
+  {
+    question: "In 2021, Jeremy Clifton proposed the concept of “Primal belief” which determines an individual’s most basic belief about the general characteristics of the world. According to this theory, which of the following are the secondary primal beliefs?\n\na. Alive (vs. mechanistic)\nb. Enticing (vs. dull)\nc. Safe (vs. dangerous)\nd. Good (vs. bad)",
+    options: [
+      "Only a, c and d are true",
+      "Only a, b and c are true",
+      "Only b, c and d are true",
+      "All of these are true",
+    ],
+    answer: "Only a, b and c are true",
+  },
+  {
+    question: "In 2015, Bruce Lipton, a molecular biologist, proposed five premises for “The biology of belief” in his book. According to his conjectures, which of the following are true?\n\na. The cell is like a human body & it can function without DNA\nb. Environment has no role in our genetic predisposition\nc. Perception of environment is not necessarily the reality and our belief acts as a filter in between\nd. Human beliefs can choose to perceive an environment as positive or negative which helps in release of different hormones (growth or protection)\ne. Based on our perception of environment, conditional activation of “Fight or Flight” response can occur as well as growth and protection hormone can be released which in turn can result in different gene unfolding",
+    options: [
+      "Only a, b, c and e are true",
+      "Only b, c, d and e are true",
+      "Only a, c, d and e are true",
+      "Only a, b, d and e are true",
+    ],
+    answer: "Only a, c, d and e are true",
+  },
+],
     week3:[
       {
         question: "Some of the following are examples of personality disorders caused by lack of empathy. Which of them are true?",
